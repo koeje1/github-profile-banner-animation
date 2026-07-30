@@ -1,0 +1,261 @@
+{
+  "status": "PASS",
+  "branch_expected": "test",
+  "canvas_size": [
+    1913,
+    822
+  ],
+  "layer_order": [
+    "background_master",
+    "vine_cluster_A",
+    "lantern_glow",
+    "hero_shadow / dragon_shadow",
+    "dragon_walk / hero_walk",
+    "magic_effect",
+    "paper_effect",
+    "speech_bubble / speech_bubble_text",
+    "lower_banner / lower_banner_text"
+  ],
+  "timing_ms": {
+    "hero": 120,
+    "dragon": 180,
+    "paper": 140,
+    "magic": 140,
+    "lantern": 300,
+    "vine": 320,
+    "speech_typing": 120,
+    "lower_text_typing": 200
+  },
+  "hero": {
+    "files": [
+      "gif_project/03_assets/characters/hero_walk_01.png",
+      "gif_project/03_assets/characters/hero_walk_02.png",
+      "gif_project/03_assets/characters/hero_walk_03.png",
+      "gif_project/03_assets/characters/hero_walk_04.png",
+      "gif_project/03_assets/characters/hero_walk_05.png",
+      "gif_project/03_assets/characters/hero_walk_06.png"
+    ],
+    "frame_count": 6,
+    "loop_duration_ms": 720,
+    "origin": [
+      625,
+      344
+    ],
+    "anchors": {
+      "local_ground_y": [
+        252,
+        252,
+        252,
+        252,
+        252,
+        252
+      ],
+      "scene_ground_y": [
+        596,
+        596,
+        596,
+        596,
+        596,
+        596
+      ],
+      "local_crystal_centers": [
+        [
+          259,
+          78
+        ],
+        [
+          259,
+          78
+        ],
+        [
+          259,
+          78
+        ],
+        [
+          259,
+          78
+        ],
+        [
+          259,
+          78
+        ],
+        [
+          259,
+          78
+        ]
+      ],
+      "scene_crystal_centers": [
+        [
+          884,
+          422
+        ],
+        [
+          884,
+          422
+        ],
+        [
+          884,
+          422
+        ],
+        [
+          884,
+          422
+        ],
+        [
+          884,
+          422
+        ],
+        [
+          884,
+          422
+        ]
+      ]
+    }
+  },
+  "magic": {
+    "local_start_x": [
+      34,
+      28,
+      30,
+      30
+    ],
+    "scene_origins_x": [
+      850,
+      856,
+      854,
+      854
+    ],
+    "scene_start": [
+      884,
+      422
+    ]
+  },
+  "lantern": {
+    "file": "gif_project/03_assets/effects/lantern_glow_sheet.png",
+    "frame_count": 4,
+    "loop_duration_ms": 1200,
+    "origin": [
+      0,
+      0
+    ],
+    "new_body_file_present": false
+  },
+  "outputs": {
+    "gif": "gif_project/05_exports/github_profile_banner_dev_preview.gif",
+    "png": "gif_project/05_exports/github_profile_banner_dev_preview.png",
+    "gif_frames": 100,
+    "gif_duration_ms": 5040,
+    "gif_durations_ms": [
+      120,
+      20,
+      40,
+      20,
+      40,
+      40,
+      20,
+      20,
+      40,
+      40,
+      20,
+      60,
+      60,
+      20,
+      40,
+      40,
+      60,
+      20,
+      80,
+      40,
+      60,
+      60,
+      20,
+      20,
+      80,
+      40,
+      80,
+      60,
+      20,
+      40,
+      80,
+      40,
+      60,
+      40,
+      20,
+      40,
+      20,
+      60,
+      120,
+      20,
+      100,
+      40,
+      20,
+      60,
+      60,
+      60,
+      80,
+      40,
+      60,
+      40,
+      20,
+      120,
+      40,
+      80,
+      20,
+      40,
+      60,
+      40,
+      80,
+      60,
+      60,
+      60,
+      20,
+      40,
+      80,
+      20,
+      20,
+      60,
+      60,
+      60,
+      60,
+      20,
+      20,
+      80,
+      40,
+      80,
+      60,
+      60,
+      60,
+      20,
+      40,
+      100,
+      20,
+      60,
+      20,
+      40,
+      120,
+      20,
+      100,
+      40,
+      20,
+      60,
+      60,
+      60,
+      80,
+      40,
+      60,
+      40,
+      20,
+      120
+    ],
+    "gif_bytes": 2873061
+  },
+  "baseline": {
+    "gif": "gif_project/05_exports/github_profile_banner_final.gif",
+    "gif_frames": 82,
+    "gif_duration_ms": 5040,
+    "gif_bytes": 62780212
+  },
+  "input_hashes_unchanged": true,
+  "timeline_event_count_before_dedup": 100,
+  "timeline_frame_count_after_dedup": 100
+}
