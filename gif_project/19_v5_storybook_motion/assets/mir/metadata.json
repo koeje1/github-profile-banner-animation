@@ -1,0 +1,248 @@
+{
+  "source": "C:\\Users\\user\\OneDrive\\Documents\\assets\\banner-v2-work\\gif_project\\19_v5_storybook_motion\\assets\\mir-flight-sheet.png",
+  "source_size": [
+    1774,
+    887
+  ],
+  "source_grid": [
+    4,
+    2
+  ],
+  "canvas": [
+    160,
+    100
+  ],
+  "body_anchor": [
+    80,
+    60
+  ],
+  "registered_anatomical_anchor": "golden horn pixel centroid in fixed head ROI",
+  "horn_anchor": [
+    94,
+    26
+  ],
+  "uniform_scale": 0.245,
+  "direction": "right",
+  "mirrored": false,
+  "order": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "recommended_frame_ms": 120,
+  "recommended_cycle_ms": 960,
+  "timing_note": "Suggested playback timing for new generated art, not source game timing.",
+  "processing": "Equal-cell crop, uniform premultiplied-alpha bicubic resize, rigid translation only. No morphing, optical flow, recoloring or per-frame fitting.",
+  "source_fringe": {
+    "red_pixel_count": 11021,
+    "red_pixel_max_alpha": 5,
+    "handling": "Preserved source RGBA; premultiplied resampling suppresses invisible RGB bleed."
+  },
+  "frames": [
+    {
+      "index": 0,
+      "file": "frame-0.png",
+      "source_cell": [
+        0,
+        0,
+        444,
+        444
+      ],
+      "source_horn_centroid": [
+        288.98893,
+        93.29836
+      ],
+      "visible_bbox_alpha_128": [
+        28,
+        18,
+        123,
+        85
+      ],
+      "visible_size_alpha_128": [
+        95,
+        67
+      ],
+      "sha256": "beb4dcc0e41f9ac1e8ea5bca74e9c3d88ee5ea1998b0d1a263c24e12e4a572ff"
+    },
+    {
+      "index": 1,
+      "file": "frame-1.png",
+      "source_cell": [
+        444,
+        0,
+        887,
+        444
+      ],
+      "source_horn_centroid": [
+        288.52676,
+        93.03915
+      ],
+      "visible_bbox_alpha_128": [
+        27,
+        18,
+        123,
+        84
+      ],
+      "visible_size_alpha_128": [
+        96,
+        66
+      ],
+      "sha256": "397edb7d64df20c9eb9ff44bdf660bb1919d05622e5bf2ec589341dc37e70bf3"
+    },
+    {
+      "index": 2,
+      "file": "frame-2.png",
+      "source_cell": [
+        887,
+        0,
+        1330,
+        444
+      ],
+      "source_horn_centroid": [
+        289.66587,
+        93.24928
+      ],
+      "visible_bbox_alpha_128": [
+        27,
+        18,
+        123,
+        83
+      ],
+      "visible_size_alpha_128": [
+        96,
+        65
+      ],
+      "sha256": "8ad71f60fcfb9eb369bc7b54e5eab5e596a0d932151bd44a7a8c477251ee6682"
+    },
+    {
+      "index": 3,
+      "file": "frame-3.png",
+      "source_cell": [
+        1330,
+        0,
+        1774,
+        444
+      ],
+      "source_horn_centroid": [
+        289.34772,
+        93.31831
+      ],
+      "visible_bbox_alpha_128": [
+        28,
+        18,
+        123,
+        84
+      ],
+      "visible_size_alpha_128": [
+        95,
+        66
+      ],
+      "sha256": "4405dc207344da52ff5a91be4356f613dc153106d62d59171054c79a8dc49f6d"
+    },
+    {
+      "index": 4,
+      "file": "frame-4.png",
+      "source_cell": [
+        0,
+        444,
+        444,
+        887
+      ],
+      "source_horn_centroid": [
+        289.15593,
+        92.92228
+      ],
+      "visible_bbox_alpha_128": [
+        28,
+        18,
+        123,
+        89
+      ],
+      "visible_size_alpha_128": [
+        95,
+        71
+      ],
+      "sha256": "3f514aa71e3a9e64021ffab6c7ccb64657b021a0485b96a358e73f7873e6a66e"
+    },
+    {
+      "index": 5,
+      "file": "frame-5.png",
+      "source_cell": [
+        444,
+        444,
+        887,
+        887
+      ],
+      "source_horn_centroid": [
+        289.05719,
+        93.05358
+      ],
+      "visible_bbox_alpha_128": [
+        27,
+        18,
+        123,
+        82
+      ],
+      "visible_size_alpha_128": [
+        96,
+        64
+      ],
+      "sha256": "5c396201fa00de2a8cf47e11dc403ad85590052ece1b03c97c8739f3f9dd9d04"
+    },
+    {
+      "index": 6,
+      "file": "frame-6.png",
+      "source_cell": [
+        887,
+        444,
+        1330,
+        887
+      ],
+      "source_horn_centroid": [
+        289.36924,
+        93.07014
+      ],
+      "visible_bbox_alpha_128": [
+        27,
+        18,
+        123,
+        82
+      ],
+      "visible_size_alpha_128": [
+        96,
+        64
+      ],
+      "sha256": "bac70fdb3dddc54b4f2d98ea0862c6b9686bbebe647000196305e868f4f49d9c"
+    },
+    {
+      "index": 7,
+      "file": "frame-7.png",
+      "source_cell": [
+        1330,
+        444,
+        1774,
+        887
+      ],
+      "source_horn_centroid": [
+        289.98654,
+        92.50054
+      ],
+      "visible_bbox_alpha_128": [
+        27,
+        18,
+        123,
+        83
+      ],
+      "visible_size_alpha_128": [
+        96,
+        65
+      ],
+      "sha256": "084bc1ac551008be6a68a4936979026624904cba3aff653c2a48de62cb761633"
+    }
+  ]
+}

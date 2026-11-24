@@ -1,0 +1,307 @@
+{
+  "source_file": "assets/evan-walk-sheet.png",
+  "source_size": [
+    1774,
+    887
+  ],
+  "split": "4 columns by 2 rows, equal fractional cell bounds rounded to pixels",
+  "alpha_policy": "Original alpha preserved; no thresholding, erosion, or fringe deletion. Threshold128 measures landmarks only.",
+  "uniform_scale": 0.19594594594594594,
+  "native_canvas": [
+    100,
+    100
+  ],
+  "native_anchor": [
+    54,
+    90
+  ],
+  "frame_delay_ms_candidate": 120,
+  "cycle_ms_candidate": 960,
+  "frames": [
+    {
+      "index": 0,
+      "source_sheet_bounds": [
+        0,
+        0,
+        444,
+        444
+      ],
+      "source_cell_size": [
+        444,
+        444
+      ],
+      "source_body_bounds_at_alpha_128_for_measurement_only": [
+        81,
+        33,
+        381,
+        412
+      ],
+      "source_head_landmark_x": 244,
+      "source_foot_baseline": 412,
+      "uniform_scale": 0.19594594594594594,
+      "source_pad_size": 444,
+      "resized_pad_size": 87,
+      "placement_offset": [
+        6,
+        9
+      ],
+      "head_landmark_native_x": 53.81081081081081,
+      "baseline_native_y": 89.72972972972973,
+      "body_height_native_px": 74.26351351351352,
+      "alpha_1_to_9_pixel_count": 52921,
+      "source_rgba_sha256": "71c563d6254fd63a89641f97a978112430384983f587f171480f57302c20cd99",
+      "file": "assets/evan/frame-0.png"
+    },
+    {
+      "index": 1,
+      "source_sheet_bounds": [
+        444,
+        0,
+        887,
+        444
+      ],
+      "source_cell_size": [
+        443,
+        444
+      ],
+      "source_body_bounds_at_alpha_128_for_measurement_only": [
+        96,
+        33,
+        376,
+        413
+      ],
+      "source_head_landmark_x": 243,
+      "source_foot_baseline": 413,
+      "uniform_scale": 0.19594594594594594,
+      "source_pad_size": 444,
+      "resized_pad_size": 87,
+      "placement_offset": [
+        6,
+        9
+      ],
+      "head_landmark_native_x": 53.61486486486486,
+      "baseline_native_y": 89.92567567567568,
+      "body_height_native_px": 74.45945945945945,
+      "alpha_1_to_9_pixel_count": 58158,
+      "source_rgba_sha256": "bf2616b72fc082e8f3db963e75ab9529faee3eb9b8a29810876e8ae50f026a4a",
+      "file": "assets/evan/frame-1.png"
+    },
+    {
+      "index": 2,
+      "source_sheet_bounds": [
+        887,
+        0,
+        1330,
+        444
+      ],
+      "source_cell_size": [
+        443,
+        444
+      ],
+      "source_body_bounds_at_alpha_128_for_measurement_only": [
+        104,
+        29,
+        374,
+        415
+      ],
+      "source_head_landmark_x": 244,
+      "source_foot_baseline": 415,
+      "uniform_scale": 0.19594594594594594,
+      "source_pad_size": 444,
+      "resized_pad_size": 87,
+      "placement_offset": [
+        6,
+        9
+      ],
+      "head_landmark_native_x": 53.81081081081081,
+      "baseline_native_y": 90.31756756756756,
+      "body_height_native_px": 75.63513513513513,
+      "alpha_1_to_9_pixel_count": 54978,
+      "source_rgba_sha256": "b8afb49ff7c0c1fa6b83d23542c5ac75abc9d2e386a87467eb120106935396f2",
+      "file": "assets/evan/frame-2.png"
+    },
+    {
+      "index": 3,
+      "source_sheet_bounds": [
+        1330,
+        0,
+        1774,
+        444
+      ],
+      "source_cell_size": [
+        444,
+        444
+      ],
+      "source_body_bounds_at_alpha_128_for_measurement_only": [
+        112,
+        30,
+        374,
+        415
+      ],
+      "source_head_landmark_x": 244,
+      "source_foot_baseline": 415,
+      "uniform_scale": 0.19594594594594594,
+      "source_pad_size": 444,
+      "resized_pad_size": 87,
+      "placement_offset": [
+        6,
+        9
+      ],
+      "head_landmark_native_x": 53.81081081081081,
+      "baseline_native_y": 90.31756756756756,
+      "body_height_native_px": 75.4391891891892,
+      "alpha_1_to_9_pixel_count": 50189,
+      "source_rgba_sha256": "f4862919a4c6fe66a422a87313e19360af2de5884edd545d89db193920afe72f",
+      "file": "assets/evan/frame-3.png"
+    },
+    {
+      "index": 4,
+      "source_sheet_bounds": [
+        0,
+        444,
+        444,
+        887
+      ],
+      "source_cell_size": [
+        444,
+        443
+      ],
+      "source_body_bounds_at_alpha_128_for_measurement_only": [
+        104,
+        32,
+        377,
+        409
+      ],
+      "source_head_landmark_x": 243,
+      "source_foot_baseline": 409,
+      "uniform_scale": 0.19594594594594594,
+      "source_pad_size": 444,
+      "resized_pad_size": 87,
+      "placement_offset": [
+        6,
+        10
+      ],
+      "head_landmark_native_x": 53.61486486486486,
+      "baseline_native_y": 90.14189189189189,
+      "body_height_native_px": 73.87162162162161,
+      "alpha_1_to_9_pixel_count": 57463,
+      "source_rgba_sha256": "89a7987162122394f6fec00ebc0ab18a59947228ad61008a03b0fd38f5e843bf",
+      "file": "assets/evan/frame-4.png"
+    },
+    {
+      "index": 5,
+      "source_sheet_bounds": [
+        444,
+        444,
+        887,
+        887
+      ],
+      "source_cell_size": [
+        443,
+        443
+      ],
+      "source_body_bounds_at_alpha_128_for_measurement_only": [
+        100,
+        33,
+        379,
+        414
+      ],
+      "source_head_landmark_x": 244,
+      "source_foot_baseline": 414,
+      "uniform_scale": 0.19594594594594594,
+      "source_pad_size": 444,
+      "resized_pad_size": 87,
+      "placement_offset": [
+        6,
+        9
+      ],
+      "head_landmark_native_x": 53.81081081081081,
+      "baseline_native_y": 90.12162162162161,
+      "body_height_native_px": 74.6554054054054,
+      "alpha_1_to_9_pixel_count": 59194,
+      "source_rgba_sha256": "eb607d8dbb129d545c16ddbdb22bf0974bdc0342f0bb5ad2a55020aadadf5f3b",
+      "file": "assets/evan/frame-5.png"
+    },
+    {
+      "index": 6,
+      "source_sheet_bounds": [
+        887,
+        444,
+        1330,
+        887
+      ],
+      "source_cell_size": [
+        443,
+        443
+      ],
+      "source_body_bounds_at_alpha_128_for_measurement_only": [
+        101,
+        34,
+        381,
+        414
+      ],
+      "source_head_landmark_x": 245,
+      "source_foot_baseline": 414,
+      "uniform_scale": 0.19594594594594594,
+      "source_pad_size": 444,
+      "resized_pad_size": 87,
+      "placement_offset": [
+        6,
+        9
+      ],
+      "head_landmark_native_x": 54.00675675675676,
+      "baseline_native_y": 90.12162162162161,
+      "body_height_native_px": 74.45945945945945,
+      "alpha_1_to_9_pixel_count": 58749,
+      "source_rgba_sha256": "83f96101490f9da2c7eace192afa794bf3e4e3698b71cdb3dddce953f8859f81",
+      "file": "assets/evan/frame-6.png"
+    },
+    {
+      "index": 7,
+      "source_sheet_bounds": [
+        1330,
+        444,
+        1774,
+        887
+      ],
+      "source_cell_size": [
+        444,
+        443
+      ],
+      "source_body_bounds_at_alpha_128_for_measurement_only": [
+        96,
+        33,
+        385,
+        409
+      ],
+      "source_head_landmark_x": 246,
+      "source_foot_baseline": 409,
+      "uniform_scale": 0.19594594594594594,
+      "source_pad_size": 444,
+      "resized_pad_size": 87,
+      "placement_offset": [
+        6,
+        10
+      ],
+      "head_landmark_native_x": 54.2027027027027,
+      "baseline_native_y": 90.14189189189189,
+      "body_height_native_px": 73.67567567567568,
+      "alpha_1_to_9_pixel_count": 63037,
+      "source_rgba_sha256": "dd4960a47d9cc59bc6b3c71768e919a8fc85fa760e9fd6b52e5b32a9820b53ad",
+      "file": "assets/evan/frame-7.png"
+    }
+  ],
+  "visual_review": {
+    "inspected": [
+      "evan-contact-white.png",
+      "evan-contact-scene.png",
+      "evan-contact-2x.png"
+    ],
+    "fringe": "No obvious red/white fringe at the intended 74px body height on white or scene background. Source bright red pixels outside the body have alpha1-2/255 and are retained.",
+    "registration": "Head landmark x spread under0.6px and detected sole baseline spread under0.6px after integer placement. Same scale used throughout.",
+    "cycle_concern": "Poses0,4,7 share similar wide-stride legs. Poses2,3,6 show a similar raised-knee configuration. Far/near leg identity and a true opposite-leg half-cycle are not clearly established by these stills. Arm movement does not by itself prove correct alternating gait.",
+    "status": "Needs actual motion inspection; no claim of natural or slip-free walking."
+  },
+  "initial_travel_speed_recommendation_px_s": 45,
+  "speed_rationale": "43.2px travel per960ms cycle is near the visible38-42px spread of the extended boots; this is a starting trial, not a foot-contact validation."
+}

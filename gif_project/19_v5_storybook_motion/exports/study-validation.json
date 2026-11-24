@@ -1,0 +1,31 @@
+{
+  "status": "short study; not a final looping banner",
+  "duration_ms": 4800,
+  "frame_count": 160,
+  "frame_step_ms": 30,
+  "character_pose_ms": 120,
+  "character_cycle_ms": 960,
+  "source_type": "newly generated complete illustration poses",
+  "original_game_character_pixels_used": false,
+  "no_limb_cutouts_or_morphs": true,
+  "no_crossfade_ghosting": true,
+  "ground_source_pixels_fixed": true,
+  "evan_speed_px_s": 45,
+  "evan_anchor": [
+    54,
+    90
+  ],
+  "mir_anchor": [
+    80,
+    60
+  ],
+  "mir_body_scene_y": 251,
+  "mp4_decode_errors": "",
+  "screen_playback_observed": false,
+  "review_limits": [
+    "Generated eight poses are not proof of anatomical gait quality.",
+    "Near/far leg alternation needs motion review.",
+    "This 4.8-second study moves forward and does not have a seamless endpoint."
+  ],
+  "video_bytes": 1420981
+}

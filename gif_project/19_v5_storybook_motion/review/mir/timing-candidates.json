@@ -1,0 +1,472 @@
+{
+  "source_pose_pattern": "../../assets/mir/frame-{index}.png",
+  "source_frames_modified": false,
+  "canvas": [
+    160,
+    100
+  ],
+  "body_anchor": [
+    80,
+    60
+  ],
+  "frame_step_ms": 30,
+  "candidates": [
+    {
+      "id": "original",
+      "label": "A / Original",
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120
+      ],
+      "bob_phase_ms": 60,
+      "recommended": false,
+      "cycle_ms": 960,
+      "body_bob": {
+        "amplitude_px": 1.0,
+        "mean_body_y": 251,
+        "screen_y_formula": "251 + round(cos(2*pi*(t-phase_ms)/960))",
+        "phase_ms": 60,
+        "positive_y": "down",
+        "continuous_amplitude_range": [
+          250,
+          252
+        ]
+      },
+      "transition_metrics": [
+        {
+          "from": 0,
+          "to": 1,
+          "whole_mae": 5.599,
+          "head_neck_mae": 5.674,
+          "paw_region_mae": 7.028
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "whole_mae": 7.044,
+          "head_neck_mae": 6.539,
+          "paw_region_mae": 10.029
+        },
+        {
+          "from": 2,
+          "to": 3,
+          "whole_mae": 7.397,
+          "head_neck_mae": 11.665,
+          "paw_region_mae": 18.003
+        },
+        {
+          "from": 3,
+          "to": 4,
+          "whole_mae": 5.244,
+          "head_neck_mae": 7.803,
+          "paw_region_mae": 22.572
+        },
+        {
+          "from": 4,
+          "to": 5,
+          "whole_mae": 6.793,
+          "head_neck_mae": 9.501,
+          "paw_region_mae": 18.658
+        },
+        {
+          "from": 5,
+          "to": 6,
+          "whole_mae": 6.896,
+          "head_neck_mae": 5.364,
+          "paw_region_mae": 9.495
+        },
+        {
+          "from": 6,
+          "to": 7,
+          "whole_mae": 5.869,
+          "head_neck_mae": 7.034,
+          "paw_region_mae": 12.926
+        },
+        {
+          "from": 7,
+          "to": 0,
+          "whole_mae": 5.982,
+          "head_neck_mae": 9.244,
+          "paw_region_mae": 13.878
+        }
+      ],
+      "timeline": [
+        {
+          "frame": 0,
+          "start_ms": 0,
+          "duration_ms": 120,
+          "end_ms": 120
+        },
+        {
+          "frame": 1,
+          "start_ms": 120,
+          "duration_ms": 120,
+          "end_ms": 240
+        },
+        {
+          "frame": 2,
+          "start_ms": 240,
+          "duration_ms": 120,
+          "end_ms": 360
+        },
+        {
+          "frame": 3,
+          "start_ms": 360,
+          "duration_ms": 120,
+          "end_ms": 480
+        },
+        {
+          "frame": 4,
+          "start_ms": 480,
+          "duration_ms": 120,
+          "end_ms": 600
+        },
+        {
+          "frame": 5,
+          "start_ms": 600,
+          "duration_ms": 120,
+          "end_ms": 720
+        },
+        {
+          "frame": 6,
+          "start_ms": 720,
+          "duration_ms": 120,
+          "end_ms": 840
+        },
+        {
+          "frame": 7,
+          "start_ms": 840,
+          "duration_ms": 120,
+          "end_ms": 960
+        }
+      ]
+    },
+    {
+      "id": "pingpong",
+      "label": "B / Ping-pong",
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        3,
+        2,
+        1
+      ],
+      "durations_ms": [
+        150,
+        120,
+        90,
+        90,
+        120,
+        90,
+        150,
+        150
+      ],
+      "bob_phase_ms": 30,
+      "recommended": true,
+      "cycle_ms": 960,
+      "body_bob": {
+        "amplitude_px": 1.0,
+        "mean_body_y": 251,
+        "screen_y_formula": "251 + round(cos(2*pi*(t-phase_ms)/960))",
+        "phase_ms": 30,
+        "positive_y": "down",
+        "continuous_amplitude_range": [
+          250,
+          252
+        ]
+      },
+      "transition_metrics": [
+        {
+          "from": 0,
+          "to": 1,
+          "whole_mae": 5.599,
+          "head_neck_mae": 5.674,
+          "paw_region_mae": 7.028
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "whole_mae": 7.044,
+          "head_neck_mae": 6.539,
+          "paw_region_mae": 10.029
+        },
+        {
+          "from": 2,
+          "to": 3,
+          "whole_mae": 7.397,
+          "head_neck_mae": 11.665,
+          "paw_region_mae": 18.003
+        },
+        {
+          "from": 3,
+          "to": 4,
+          "whole_mae": 5.244,
+          "head_neck_mae": 7.803,
+          "paw_region_mae": 22.572
+        },
+        {
+          "from": 4,
+          "to": 3,
+          "whole_mae": 5.244,
+          "head_neck_mae": 7.803,
+          "paw_region_mae": 22.572
+        },
+        {
+          "from": 3,
+          "to": 2,
+          "whole_mae": 7.397,
+          "head_neck_mae": 11.665,
+          "paw_region_mae": 18.003
+        },
+        {
+          "from": 2,
+          "to": 1,
+          "whole_mae": 7.044,
+          "head_neck_mae": 6.539,
+          "paw_region_mae": 10.029
+        },
+        {
+          "from": 1,
+          "to": 0,
+          "whole_mae": 5.599,
+          "head_neck_mae": 5.674,
+          "paw_region_mae": 7.028
+        }
+      ],
+      "timeline": [
+        {
+          "frame": 0,
+          "start_ms": 0,
+          "duration_ms": 150,
+          "end_ms": 150
+        },
+        {
+          "frame": 1,
+          "start_ms": 150,
+          "duration_ms": 120,
+          "end_ms": 270
+        },
+        {
+          "frame": 2,
+          "start_ms": 270,
+          "duration_ms": 90,
+          "end_ms": 360
+        },
+        {
+          "frame": 3,
+          "start_ms": 360,
+          "duration_ms": 90,
+          "end_ms": 450
+        },
+        {
+          "frame": 4,
+          "start_ms": 450,
+          "duration_ms": 120,
+          "end_ms": 570
+        },
+        {
+          "frame": 3,
+          "start_ms": 570,
+          "duration_ms": 90,
+          "end_ms": 660
+        },
+        {
+          "frame": 2,
+          "start_ms": 660,
+          "duration_ms": 150,
+          "end_ms": 810
+        },
+        {
+          "frame": 1,
+          "start_ms": 810,
+          "duration_ms": 150,
+          "end_ms": 960
+        }
+      ]
+    },
+    {
+      "id": "bridge",
+      "label": "C / Recovery bridge",
+      "order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        3,
+        5,
+        6,
+        7
+      ],
+      "durations_ms": [
+        120,
+        90,
+        90,
+        90,
+        90,
+        90,
+        120,
+        120,
+        150
+      ],
+      "bob_phase_ms": -45,
+      "recommended": false,
+      "cycle_ms": 960,
+      "body_bob": {
+        "amplitude_px": 1.0,
+        "mean_body_y": 251,
+        "screen_y_formula": "251 + round(cos(2*pi*(t-phase_ms)/960))",
+        "phase_ms": -45,
+        "positive_y": "down",
+        "continuous_amplitude_range": [
+          250,
+          252
+        ]
+      },
+      "transition_metrics": [
+        {
+          "from": 0,
+          "to": 1,
+          "whole_mae": 5.599,
+          "head_neck_mae": 5.674,
+          "paw_region_mae": 7.028
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "whole_mae": 7.044,
+          "head_neck_mae": 6.539,
+          "paw_region_mae": 10.029
+        },
+        {
+          "from": 2,
+          "to": 3,
+          "whole_mae": 7.397,
+          "head_neck_mae": 11.665,
+          "paw_region_mae": 18.003
+        },
+        {
+          "from": 3,
+          "to": 4,
+          "whole_mae": 5.244,
+          "head_neck_mae": 7.803,
+          "paw_region_mae": 22.572
+        },
+        {
+          "from": 4,
+          "to": 3,
+          "whole_mae": 5.244,
+          "head_neck_mae": 7.803,
+          "paw_region_mae": 22.572
+        },
+        {
+          "from": 3,
+          "to": 5,
+          "whole_mae": 6.828,
+          "head_neck_mae": 9.895,
+          "paw_region_mae": 24.725
+        },
+        {
+          "from": 5,
+          "to": 6,
+          "whole_mae": 6.896,
+          "head_neck_mae": 5.364,
+          "paw_region_mae": 9.495
+        },
+        {
+          "from": 6,
+          "to": 7,
+          "whole_mae": 5.869,
+          "head_neck_mae": 7.034,
+          "paw_region_mae": 12.926
+        },
+        {
+          "from": 7,
+          "to": 0,
+          "whole_mae": 5.982,
+          "head_neck_mae": 9.244,
+          "paw_region_mae": 13.878
+        }
+      ],
+      "timeline": [
+        {
+          "frame": 0,
+          "start_ms": 0,
+          "duration_ms": 120,
+          "end_ms": 120
+        },
+        {
+          "frame": 1,
+          "start_ms": 120,
+          "duration_ms": 90,
+          "end_ms": 210
+        },
+        {
+          "frame": 2,
+          "start_ms": 210,
+          "duration_ms": 90,
+          "end_ms": 300
+        },
+        {
+          "frame": 3,
+          "start_ms": 300,
+          "duration_ms": 90,
+          "end_ms": 390
+        },
+        {
+          "frame": 4,
+          "start_ms": 390,
+          "duration_ms": 90,
+          "end_ms": 480
+        },
+        {
+          "frame": 3,
+          "start_ms": 480,
+          "duration_ms": 90,
+          "end_ms": 570
+        },
+        {
+          "frame": 5,
+          "start_ms": 570,
+          "duration_ms": 120,
+          "end_ms": 690
+        },
+        {
+          "frame": 6,
+          "start_ms": 690,
+          "duration_ms": 120,
+          "end_ms": 810
+        },
+        {
+          "frame": 7,
+          "start_ms": 810,
+          "duration_ms": 150,
+          "end_ms": 960
+        }
+      ]
+    }
+  ],
+  "recommended_id": "pingpong",
+  "recommendation_basis": "Independent static anatomy inspection favors retaining first-five-pose body consistency. The large 2<->3 wing angle jump remains.",
+  "screen_playback_observed": false,
+  "next_check": "Compare these review videos in actual playback, especially 2<->3 and the reversal at frame 4."
+}

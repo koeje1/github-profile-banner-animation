@@ -1,0 +1,138 @@
+{
+  "status": "File integrity and loop mechanics passed; perceptual quality requires visual review.",
+  "size": [
+    800,
+    348
+  ],
+  "frame_count": 768,
+  "duration_ms": 23040,
+  "frame_duration_ms": 30,
+  "fps": 33.333333333333336,
+  "fps_fraction": "100/3",
+  "cycle_periods_ms": {
+    "evan": 1440,
+    "mir": 960,
+    "wind": 5760
+  },
+  "cycle_phases_close_exactly": true,
+  "endpoint_and_next_loop_frame_exact": true,
+  "source_scenery_fixed_all_frames": {
+    "ground": {
+      "fixed": true,
+      "bounds": [
+        0,
+        270,
+        800,
+        348
+      ]
+    },
+    "house": {
+      "fixed": true,
+      "bounds": [
+        555,
+        168,
+        800,
+        348
+      ]
+    },
+    "trunk": {
+      "fixed": true,
+      "bounds": [
+        80,
+        120,
+        180,
+        260
+      ]
+    }
+  },
+  "actor_wrap_frames": [
+    399
+  ],
+  "actors_and_shadows_fully_offscreen_at_wrap": true,
+  "forward_step_px_values": [
+    1,
+    2
+  ],
+  "evan_baseline_y": 287,
+  "seam_MAD": 2.249950909961686,
+  "min_step_MAD": 0.03692528735632184,
+  "mean_step_MAD": 0.9889267737790178,
+  "max_step_MAD": 2.3569971264367817,
+  "seam_within_regular_frame_step_range": true,
+  "global_palette_sample_indices": [
+    0,
+    70,
+    139,
+    209,
+    279,
+    349,
+    418,
+    488,
+    558,
+    628,
+    697,
+    767
+  ],
+  "gif": {
+    "encoded_frames": 768,
+    "expanded_source_frames": 768,
+    "total_duration_ms": 23040,
+    "frame_duration_ms_values": [
+      30
+    ],
+    "all_decoded_frames_match_indexed_source": true,
+    "loop": 0
+  },
+  "mp4": {
+    "codec": "h264",
+    "fps": 33.33,
+    "decoded_frames": 768,
+    "three_loop_decoded_frames": 2304,
+    "decode_errors": "",
+    "decoded_sample_indices": [
+      0,
+      192,
+      384,
+      576,
+      767
+    ]
+  },
+  "short_motion_review": {
+    "encoded_frames": 63,
+    "expanded_source_frames": 63,
+    "total_duration_ms": 1890,
+    "frame_duration_ms_values": [
+      30
+    ],
+    "all_decoded_frames_match_indexed_source": true,
+    "loop": 0,
+    "created": true,
+    "file": "motion-review-1p9s.gif",
+    "start_frame": 0,
+    "crop_size": [
+      300,
+      150
+    ],
+    "native_pixel_density": true,
+    "purpose": "Short motion review; crop follows actors; restart is not the production loop seam."
+  },
+  "screen_playback_observed": true,
+  "limits": [
+    "File checks do not prove natural anatomy, gait, wind or appealing animation.",
+    "GIF uses a shared 255-color palette; MP4 is a lossy H.264 encode.",
+    "The short crop follows the actors and has an arbitrary reset; assess the full banner for the real loop seam."
+  ],
+  "files": {
+    "banner-v5-storybook.gif": {
+      "bytes": 24031394,
+      "sha256": "d98d4f059f06e3aa5d05b6ca5cba90447394318e5b7a216f2b38a148e241e6df"
+    },
+    "banner-v5-storybook.mp4": {
+      "bytes": 7109604,
+      "sha256": "439eb466ef6513a3d8e906dc050533c208b8b479d6525a8bd1a862449eea4a47"
+    }
+  },
+  "elapsed_seconds": 69.55654809999942,
+  "screen_playback_scope": "MP4 loop in Windows Media Player; several playback screenshots, not uninterrupted perceptual observation of every frame. See review/playback-review.md.",
+  "visual_review": "Separate contact-sheet and decoded-scene review found no new major composite defects; known held-pose gait and wing-angle limits remain."
+}
