@@ -1,0 +1,1258 @@
+{
+  "source": "assets\\evan-walk-16.png",
+  "source_size": [
+    1247,
+    1261
+  ],
+  "source_sha256": "d6581f8606df2ed0982bb0bf449c410b71a361fd0df110ca640e42a944829776",
+  "split": "4 columns x 4 rows, row-major; rounded fractional cell boundaries",
+  "uniform_scale": 0.2689873417721519,
+  "source_pad": 316,
+  "resized_pad": 85,
+  "canvas": [
+    100,
+    100
+  ],
+  "anchor": [
+    54,
+    90
+  ],
+  "frame_duration_ms": 80,
+  "cycle_ms": 1280,
+  "alpha_policy": "Generated alpha preserved; measurement thresholds never applied to output pixels.",
+  "vertical_registration": "Planted sole baseline; head vertical position is not normalized, preserving drawn bob.",
+  "initial_ground_speed_px_s": 45.3125,
+  "measured_two_stance_support_travel_px": 58.43379727327319,
+  "matching_mean_ground_speed_px_s": 45.65140411974468,
+  "measurement_limit": "Sole-area centroids change when a boot rotates; these are approximate contact landmarks, not persistent material points. Occlusion does not prove leg identity. Held drawings still slip against continuously scrolling ground.",
+  "screen_playback_reviewed": false,
+  "visual_review": "Contact sheets inspected. Low diagonal staff and coordinated wrist/forearm changes improve carrying pose. Original alpha composites cleanly. Body size and head registration stable, with 1.35 px ruby-height range. The two 8-pose halves have strongly similar leg silhouettes; opposite-leg alternation remains ambiguous. Not approved by playback.",
+  "frames": [
+    {
+      "index": 0,
+      "file": "assets/evan/frame-0.png",
+      "source_bounds": [
+        0,
+        0,
+        312,
+        315
+      ],
+      "source_size": [
+        312,
+        315
+      ],
+      "source_alpha128_bounds_measurement_only": [
+        61,
+        22,
+        263,
+        298
+      ],
+      "source_ruby_centroid": [
+        167.85714285714286,
+        58.54621848739496
+      ],
+      "source_support_baseline": 298,
+      "placement": [
+        9,
+        10
+      ],
+      "ruby_native": [
+        54.15144665461121,
+        25.748191681735985
+      ],
+      "baseline_native": 90.15822784810126,
+      "body_height_native": 74.24050632911393,
+      "support_candidates": [
+        {
+          "source_x_range": [
+            101,
+            125
+          ],
+          "source_centroid": [
+            114.05952380952381,
+            294.2857142857143
+          ],
+          "native_centroid": [
+            39.68056811332128,
+            89.15913200723327
+          ]
+        },
+        {
+          "source_x_range": [
+            217,
+            230
+          ],
+          "source_centroid": [
+            222.7843137254902,
+            294.5882352941176
+          ],
+          "native_centroid": [
+            68.92616033755274,
+            89.24050632911391
+          ]
+        }
+      ],
+      "selected_support": {
+        "source_x_range": [
+          217,
+          230
+        ],
+        "source_centroid": [
+          222.7843137254902,
+          294.5882352941176
+        ],
+        "native_centroid": [
+          68.92616033755274,
+          89.24050632911391
+        ]
+      },
+      "native_rgba_sha256": "73ef36b48eade528d1a63589b1886993044ce8e8e8e2bfbf13998993c0b717b3"
+    },
+    {
+      "index": 1,
+      "file": "assets/evan/frame-1.png",
+      "source_bounds": [
+        312,
+        0,
+        624,
+        315
+      ],
+      "source_size": [
+        312,
+        315
+      ],
+      "source_alpha128_bounds_measurement_only": [
+        63,
+        22,
+        250,
+        297
+      ],
+      "source_ruby_centroid": [
+        162.2991452991453,
+        58.70940170940171
+      ],
+      "source_support_baseline": 297,
+      "placement": [
+        10,
+        10
+      ],
+      "ruby_native": [
+        53.656415665909336,
+        25.792085902845397
+      ],
+      "baseline_native": 89.88924050632912,
+      "body_height_native": 73.97151898734177,
+      "support_candidates": [
+        {
+          "source_x_range": [
+            119,
+            129
+          ],
+          "source_centroid": [
+            124.23809523809524,
+            292.57142857142856
+          ],
+          "native_centroid": [
+            43.41847498493068,
+            88.69801084990958
+          ]
+        },
+        {
+          "source_x_range": [
+            177,
+            220
+          ],
+          "source_centroid": [
+            195.86046511627907,
+            293.61046511627904
+          ],
+          "native_centroid": [
+            62.68398586988519,
+            88.97749852811303
+          ]
+        }
+      ],
+      "selected_support": {
+        "source_x_range": [
+          177,
+          220
+        ],
+        "source_centroid": [
+          195.86046511627907,
+          293.61046511627904
+        ],
+        "native_centroid": [
+          62.68398586988519,
+          88.97749852811303
+        ]
+      },
+      "native_rgba_sha256": "b47da0c3284e2ab534ef3e8eb9e2b2e77afbe1e43eac382a5a8e858259cb0bff"
+    },
+    {
+      "index": 2,
+      "file": "assets/evan/frame-2.png",
+      "source_bounds": [
+        624,
+        0,
+        935,
+        315
+      ],
+      "source_size": [
+        311,
+        315
+      ],
+      "source_alpha128_bounds_measurement_only": [
+        66,
+        22,
+        242,
+        298
+      ],
+      "source_ruby_centroid": [
+        157.0097087378641,
+        58.84466019417476
+      ],
+      "source_support_baseline": 298,
+      "placement": [
+        12,
+        10
+      ],
+      "ruby_native": [
+        54.23362418581787,
+        25.82846872311663
+      ],
+      "baseline_native": 90.15822784810126,
+      "body_height_native": 74.24050632911393,
+      "support_candidates": [
+        {
+          "source_x_range": [
+            151,
+            197
+          ],
+          "source_centroid": [
+            172.28125,
+            294.640625
+          ],
+          "native_centroid": [
+            58.34147547468354,
+            89.25459849683544
+          ]
+        }
+      ],
+      "selected_support": {
+        "source_x_range": [
+          151,
+          197
+        ],
+        "source_centroid": [
+          172.28125,
+          294.640625
+        ],
+        "native_centroid": [
+          58.34147547468354,
+          89.25459849683544
+        ]
+      },
+      "native_rgba_sha256": "ff9a4e92481565de1d7148b47da93f6118ef85ca305acc42fa300a8d149502ef"
+    },
+    {
+      "index": 3,
+      "file": "assets/evan/frame-3.png",
+      "source_bounds": [
+        935,
+        0,
+        1247,
+        315
+      ],
+      "source_size": [
+        312,
+        315
+      ],
+      "source_alpha128_bounds_measurement_only": [
+        65,
+        22,
+        235,
+        298
+      ],
+      "source_ruby_centroid": [
+        152.80869565217392,
+        57.74782608695652
+      ],
+      "source_support_baseline": 298,
+      "placement": [
+        13,
+        10
+      ],
+      "ruby_native": [
+        54.10360484314805,
+        25.53343423225096
+      ],
+      "baseline_native": 90.15822784810126,
+      "body_height_native": 74.24050632911393,
+      "support_candidates": [
+        {
+          "source_x_range": [
+            135,
+            179
+          ],
+          "source_centroid": [
+            156.5879120879121,
+            294.5934065934066
+          ],
+          "native_centroid": [
+            55.12016622617888,
+            89.24189734316316
+          ]
+        }
+      ],
+      "selected_support": {
+        "source_x_range": [
+          135,
+          179
+        ],
+        "source_centroid": [
+          156.5879120879121,
+          294.5934065934066
+        ],
+        "native_centroid": [
+          55.12016622617888,
+          89.24189734316316
+        ]
+      },
+      "native_rgba_sha256": "85fdad50e2ed683315d943e48619cf86c4c8b89806a115018aa1b1f08964733e"
+    },
+    {
+      "index": 4,
+      "file": "assets/evan/frame-4.png",
+      "source_bounds": [
+        0,
+        315,
+        312,
+        630
+      ],
+      "source_size": [
+        312,
+        315
+      ],
+      "source_alpha128_bounds_measurement_only": [
+        86,
+        20,
+        248,
+        296
+      ],
+      "source_ruby_centroid": [
+        169.62962962962962,
+        56.129629629629626
+      ],
+      "source_support_baseline": 296,
+      "placement": [
+        8,
+        10
+      ],
+      "ruby_native": [
+        53.628223159868725,
+        25.09815986872949
+      ],
+      "baseline_native": 89.62025316455696,
+      "body_height_native": 74.24050632911393,
+      "support_candidates": [
+        {
+          "source_x_range": [
+            138,
+            182
+          ],
+          "source_centroid": [
+            160.77948717948718,
+            292.7230769230769
+          ],
+          "native_centroid": [
+            51.24764686790003,
+            88.7388023369036
+          ]
+        }
+      ],
+      "selected_support": {
+        "source_x_range": [
+          138,
+          182
+        ],
+        "source_centroid": [
+          160.77948717948718,
+          292.7230769230769
+        ],
+        "native_centroid": [
+          51.24764686790003,
+          88.7388023369036
+        ]
+      },
+      "native_rgba_sha256": "5ffb5549ae33ed6c9301f4a1b2de355994a6fc61f5e2f6737747dcd4b4c60144"
+    },
+    {
+      "index": 5,
+      "file": "assets/evan/frame-5.png",
+      "source_bounds": [
+        312,
+        315,
+        624,
+        630
+      ],
+      "source_size": [
+        312,
+        315
+      ],
+      "source_alpha128_bounds_measurement_only": [
+        74,
+        19,
+        241,
+        296
+      ],
+      "source_ruby_centroid": [
+        162.14678899082568,
+        55.22018348623853
+      ],
+      "source_support_baseline": 296,
+      "placement": [
+        10,
+        10
+      ],
+      "ruby_native": [
+        53.61543374753222,
+        24.853530368133782
+      ],
+      "baseline_native": 89.62025316455696,
+      "body_height_native": 74.50949367088607,
+      "support_candidates": [
+        {
+          "source_x_range": [
+            124,
+            170
+          ],
+          "source_centroid": [
+            148.75409836065575,
+            292.57923497267757
+          ],
+          "native_centroid": [
+            50.012969495746006,
+            88.70011067303035
+          ]
+        }
+      ],
+      "selected_support": {
+        "source_x_range": [
+          124,
+          170
+        ],
+        "source_centroid": [
+          148.75409836065575,
+          292.57923497267757
+        ],
+        "native_centroid": [
+          50.012969495746006,
+          88.70011067303035
+        ]
+      },
+      "native_rgba_sha256": "eab4c4d73415e04e63a07ab1ff420fcf579e73c5f98befaef064c915ac104e04"
+    },
+    {
+      "index": 6,
+      "file": "assets/evan/frame-6.png",
+      "source_bounds": [
+        624,
+        315,
+        935,
+        630
+      ],
+      "source_size": [
+        311,
+        315
+      ],
+      "source_alpha128_bounds_measurement_only": [
+        59,
+        19,
+        239,
+        295
+      ],
+      "source_ruby_centroid": [
+        156.88888888888889,
+        55.136752136752136
+      ],
+      "source_support_baseline": 295,
+      "placement": [
+        12,
+        11
+      ],
+      "ruby_native": [
+        54.20112517580872,
+        25.831088391214973
+      ],
+      "baseline_native": 90.35126582278481,
+      "body_height_native": 74.24050632911393,
+      "support_candidates": [
+        {
+          "source_x_range": [
+            114,
+            143
+          ],
+          "source_centroid": [
+            129.57142857142858,
+            291.73809523809524
+          ],
+          "native_centroid": [
+            46.85307414104883,
+            89.47385473176612
+          ]
+        }
+      ],
+      "selected_support": {
+        "source_x_range": [
+          114,
+          143
+        ],
+        "source_centroid": [
+          129.57142857142858,
+          291.73809523809524
+        ],
+        "native_centroid": [
+          46.85307414104883,
+          89.47385473176612
+        ]
+      },
+      "native_rgba_sha256": "088b33d53ee4d6e085f4b1c3c160dfa5e08ccdb60c83f7244a14ec07ddc53cf9"
+    },
+    {
+      "index": 7,
+      "file": "assets/evan/frame-7.png",
+      "source_bounds": [
+        935,
+        315,
+        1247,
+        630
+      ],
+      "source_size": [
+        312,
+        315
+      ],
+      "source_alpha128_bounds_measurement_only": [
+        56,
+        18,
+        241,
+        296
+      ],
+      "source_ruby_centroid": [
+        153.7981651376147,
+        53.84403669724771
+      ],
+      "source_support_baseline": 296,
+      "placement": [
+        13,
+        10
+      ],
+      "ruby_native": [
+        54.36975960980142,
+        24.483364301474857
+      ],
+      "baseline_native": 89.62025316455696,
+      "body_height_native": 74.77848101265822,
+      "support_candidates": [
+        {
+          "source_x_range": [
+            100,
+            130
+          ],
+          "source_centroid": [
+            115.54198473282443,
+            292.7480916030534
+          ],
+          "native_centroid": [
+            44.079331336361,
+            88.74553096917576
+          ]
+        }
+      ],
+      "selected_support": {
+        "source_x_range": [
+          100,
+          130
+        ],
+        "source_centroid": [
+          115.54198473282443,
+          292.7480916030534
+        ],
+        "native_centroid": [
+          44.079331336361,
+          88.74553096917576
+        ]
+      },
+      "native_rgba_sha256": "54bf4a80a9896e9fd59a48ab7a5d9499b769b3bbbb0ab5d9a7578614ff7e9fb9"
+    },
+    {
+      "index": 8,
+      "file": "assets/evan/frame-8.png",
+      "source_bounds": [
+        0,
+        630,
+        312,
+        946
+      ],
+      "source_size": [
+        312,
+        316
+      ],
+      "source_alpha128_bounds_measurement_only": [
+        68,
+        20,
+        262,
+        292
+      ],
+      "source_ruby_centroid": [
+        168.94230769230768,
+        54.94230769230769
+      ],
+      "source_support_baseline": 292,
+      "placement": [
+        9,
+        11
+      ],
+      "ruby_native": [
+        54.44334225900681,
+        25.7787852969815
+      ],
+      "baseline_native": 89.54430379746834,
+      "body_height_native": 73.16455696202532,
+      "support_candidates": [
+        {
+          "source_x_range": [
+            103,
+            125
+          ],
+          "source_centroid": [
+            114.41538461538461,
+            288.03076923076924
+          ],
+          "native_centroid": [
+            39.77629016553067,
+            88.47663096397274
+          ]
+        },
+        {
+          "source_x_range": [
+            217,
+            230
+          ],
+          "source_centroid": [
+            222.9268292682927,
+            288.2926829268293
+          ],
+          "native_centroid": [
+            68.9644952145724,
+            88.54708243284965
+          ]
+        }
+      ],
+      "selected_support": {
+        "source_x_range": [
+          217,
+          230
+        ],
+        "source_centroid": [
+          222.9268292682927,
+          288.2926829268293
+        ],
+        "native_centroid": [
+          68.9644952145724,
+          88.54708243284965
+        ]
+      },
+      "native_rgba_sha256": "b743de155b928380c9a8ecd0c930891a6e0ce7cb8dd785f9b30eaccf38b8f313"
+    },
+    {
+      "index": 9,
+      "file": "assets/evan/frame-9.png",
+      "source_bounds": [
+        312,
+        630,
+        624,
+        946
+      ],
+      "source_size": [
+        312,
+        316
+      ],
+      "source_alpha128_bounds_measurement_only": [
+        63,
+        19,
+        252,
+        292
+      ],
+      "source_ruby_centroid": [
+        163.85321100917432,
+        54.38532110091743
+      ],
+      "source_support_baseline": 292,
+      "placement": [
+        10,
+        11
+      ],
+      "ruby_native": [
+        54.07443967018929,
+        25.628962954360702
+      ],
+      "baseline_native": 89.54430379746834,
+      "body_height_native": 73.43354430379746,
+      "support_candidates": [
+        {
+          "source_x_range": [
+            114,
+            126
+          ],
+          "source_centroid": [
+            120.57142857142857,
+            287.3809523809524
+          ],
+          "native_centroid": [
+            42.43218806509945,
+            88.30183845690175
+          ]
+        },
+        {
+          "source_x_range": [
+            182,
+            219
+          ],
+          "source_centroid": [
+            196.75912408759123,
+            288.55474452554745
+          ],
+          "native_centroid": [
+            62.925713757738144,
+            88.6175736856694
+          ]
+        }
+      ],
+      "selected_support": {
+        "source_x_range": [
+          182,
+          219
+        ],
+        "source_centroid": [
+          196.75912408759123,
+          288.55474452554745
+        ],
+        "native_centroid": [
+          62.925713757738144,
+          88.6175736856694
+        ]
+      },
+      "native_rgba_sha256": "a5c06de6980073c34fc0ce9ec28fa06d422ee279094576357f5df7a7683fd5f3"
+    },
+    {
+      "index": 10,
+      "file": "assets/evan/frame-10.png",
+      "source_bounds": [
+        624,
+        630,
+        935,
+        946
+      ],
+      "source_size": [
+        311,
+        316
+      ],
+      "source_alpha128_bounds_measurement_only": [
+        59,
+        19,
+        250,
+        292
+      ],
+      "source_ruby_centroid": [
+        158.2135922330097,
+        54.00970873786408
+      ],
+      "source_support_baseline": 292,
+      "placement": [
+        11,
+        11
+      ],
+      "ruby_native": [
+        53.55745360698046,
+        25.527927983286226
+      ],
+      "baseline_native": 89.54430379746834,
+      "body_height_native": 73.43354430379746,
+      "support_candidates": [
+        {
+          "source_x_range": [
+            150,
+            197
+          ],
+          "source_centroid": [
+            171.99543378995435,
+            288.85388127853884
+          ],
+          "native_centroid": [
+            57.26459453210797,
+            88.6980376856829
+          ]
+        }
+      ],
+      "selected_support": {
+        "source_x_range": [
+          150,
+          197
+        ],
+        "source_centroid": [
+          171.99543378995435,
+          288.85388127853884
+        ],
+        "native_centroid": [
+          57.26459453210797,
+          88.6980376856829
+        ]
+      },
+      "native_rgba_sha256": "a0b7e0fd7728b5c57b42d18af7295498adac011a541c47e5a254703dc6f96942"
+    },
+    {
+      "index": 11,
+      "file": "assets/evan/frame-11.png",
+      "source_bounds": [
+        935,
+        630,
+        1247,
+        946
+      ],
+      "source_size": [
+        312,
+        316
+      ],
+      "source_alpha128_bounds_measurement_only": [
+        54,
+        18,
+        243,
+        292
+      ],
+      "source_ruby_centroid": [
+        153.43103448275863,
+        53.30172413793103
+      ],
+      "source_support_baseline": 292,
+      "placement": [
+        13,
+        11
+      ],
+      "ruby_native": [
+        54.27100611086862,
+        25.33748908773461
+      ],
+      "baseline_native": 89.54430379746834,
+      "body_height_native": 73.70253164556962,
+      "support_candidates": [
+        {
+          "source_x_range": [
+            137,
+            182
+          ],
+          "source_centroid": [
+            158.33173076923077,
+            288.85096153846155
+          ],
+          "native_centroid": [
+            55.589231377799415,
+            88.69725231256086
+          ]
+        }
+      ],
+      "selected_support": {
+        "source_x_range": [
+          137,
+          182
+        ],
+        "source_centroid": [
+          158.33173076923077,
+          288.85096153846155
+        ],
+        "native_centroid": [
+          55.589231377799415,
+          88.69725231256086
+        ]
+      },
+      "native_rgba_sha256": "52480021570b6ebae3b2e9c2dcfbe2d1ba0c5af55c7fbf94d76a52de93c93489"
+    },
+    {
+      "index": 12,
+      "file": "assets/evan/frame-12.png",
+      "source_bounds": [
+        0,
+        946,
+        312,
+        1261
+      ],
+      "source_size": [
+        312,
+        315
+      ],
+      "source_alpha128_bounds_measurement_only": [
+        70,
+        15,
+        251,
+        295
+      ],
+      "source_ruby_centroid": [
+        169.3148148148148,
+        50.93518518518518
+      ],
+      "source_support_baseline": 295,
+      "placement": [
+        8,
+        11
+      ],
+      "ruby_native": [
+        53.5435419596812,
+        24.700920065635252
+      ],
+      "baseline_native": 90.35126582278481,
+      "body_height_native": 75.31645569620252,
+      "support_candidates": [
+        {
+          "source_x_range": [
+            140,
+            171
+          ],
+          "source_centroid": [
+            155.91538461538462,
+            291.66923076923075
+          ],
+          "native_centroid": [
+            49.93926484907497,
+            89.45533106134371
+          ]
+        }
+      ],
+      "selected_support": {
+        "source_x_range": [
+          140,
+          171
+        ],
+        "source_centroid": [
+          155.91538461538462,
+          291.66923076923075
+        ],
+        "native_centroid": [
+          49.93926484907497,
+          89.45533106134371
+        ]
+      },
+      "native_rgba_sha256": "58542ba715846c557e07325fc0c29983e67c8557961a9c2c1c52265120755760"
+    },
+    {
+      "index": 13,
+      "file": "assets/evan/frame-13.png",
+      "source_bounds": [
+        312,
+        946,
+        624,
+        1261
+      ],
+      "source_size": [
+        312,
+        315
+      ],
+      "source_alpha128_bounds_measurement_only": [
+        62,
+        15,
+        250,
+        294
+      ],
+      "source_ruby_centroid": [
+        162.2016806722689,
+        50.42857142857143
+      ],
+      "source_support_baseline": 294,
+      "placement": [
+        10,
+        11
+      ],
+      "ruby_native": [
+        53.63019891500904,
+        24.564647377938517
+      ],
+      "baseline_native": 90.08227848101265,
+      "body_height_native": 75.04746835443038,
+      "support_candidates": [
+        {
+          "source_x_range": [
+            115,
+            160
+          ],
+          "source_centroid": [
+            139.51666666666668,
+            290.6222222222222
+          ],
+          "native_centroid": [
+            47.52821729957806,
+            89.17369901547116
+          ]
+        }
+      ],
+      "selected_support": {
+        "source_x_range": [
+          115,
+          160
+        ],
+        "source_centroid": [
+          139.51666666666668,
+          290.6222222222222
+        ],
+        "native_centroid": [
+          47.52821729957806,
+          89.17369901547116
+        ]
+      },
+      "native_rgba_sha256": "ab350dd9813707e763b0d69e95107c545fd950a9ae8ce0a8d3f83a8f85f749ff"
+    },
+    {
+      "index": 14,
+      "file": "assets/evan/frame-14.png",
+      "source_bounds": [
+        624,
+        946,
+        935,
+        1261
+      ],
+      "source_size": [
+        311,
+        315
+      ],
+      "source_alpha128_bounds_measurement_only": [
+        60,
+        16,
+        250,
+        294
+      ],
+      "source_ruby_centroid": [
+        158.17796610169492,
+        51.271186440677965
+      ],
+      "source_support_baseline": 294,
+      "placement": [
+        11,
+        11
+      ],
+      "ruby_native": [
+        53.547870628620466,
+        24.791300150182366
+      ],
+      "baseline_native": 90.08227848101265,
+      "body_height_native": 74.77848101265822,
+      "support_candidates": [
+        {
+          "source_x_range": [
+            94,
+            140
+          ],
+          "source_centroid": [
+            118.83236994219654,
+            290.53757225433526
+          ],
+          "native_centroid": [
+            42.96440330723641,
+            89.15092924562815
+          ]
+        }
+      ],
+      "selected_support": {
+        "source_x_range": [
+          94,
+          140
+        ],
+        "source_centroid": [
+          118.83236994219654,
+          290.53757225433526
+        ],
+        "native_centroid": [
+          42.96440330723641,
+          89.15092924562815
+        ]
+      },
+      "native_rgba_sha256": "0ef0f9f2a0afb4426a06983377448fa02099fe6cea5b1e20f9902134e1f31a28"
+    },
+    {
+      "index": 15,
+      "file": "assets/evan/frame-15.png",
+      "source_bounds": [
+        935,
+        946,
+        1247,
+        1261
+      ],
+      "source_size": [
+        312,
+        315
+      ],
+      "source_alpha128_bounds_measurement_only": [
+        60,
+        16,
+        251,
+        295
+      ],
+      "source_ruby_centroid": [
+        154.43801652892563,
+        50.28099173553719
+      ],
+      "source_support_baseline": 295,
+      "placement": [
+        12,
+        11
+      ],
+      "ruby_native": [
+        53.54187153467936,
+        24.52495030860969
+      ],
+      "baseline_native": 90.35126582278481,
+      "body_height_native": 75.04746835443038,
+      "support_candidates": [
+        {
+          "source_x_range": [
+            96,
+            128
+          ],
+          "source_centroid": [
+            112.32307692307693,
+            291.6307692307692
+          ],
+          "native_centroid": [
+            42.213485881207404,
+            89.44498539435247
+          ]
+        }
+      ],
+      "selected_support": {
+        "source_x_range": [
+          96,
+          128
+        ],
+        "source_centroid": [
+          112.32307692307693,
+          291.6307692307692
+        ],
+        "native_centroid": [
+          42.213485881207404,
+          89.44498539435247
+        ]
+      },
+      "native_rgba_sha256": "bd1f65351a359038294f510655a7f17942ce8d266374a418f9f08b9166b181c8"
+    }
+  ],
+  "support_intervals": [
+    {
+      "from": 0,
+      "to": 1,
+      "support_retreat_px": 6.242174467667553,
+      "ground_retreat_at_initial_speed_px": 3.625,
+      "relative_foot_displacement_px": -2.617174467667553
+    },
+    {
+      "from": 1,
+      "to": 2,
+      "support_retreat_px": 4.34251039520165,
+      "ground_retreat_at_initial_speed_px": 3.625,
+      "relative_foot_displacement_px": -0.7175103952016499
+    },
+    {
+      "from": 2,
+      "to": 3,
+      "support_retreat_px": 3.22130924850466,
+      "ground_retreat_at_initial_speed_px": 3.625,
+      "relative_foot_displacement_px": 0.40369075149533984
+    },
+    {
+      "from": 3,
+      "to": 4,
+      "support_retreat_px": 3.8725193582788506,
+      "ground_retreat_at_initial_speed_px": 3.625,
+      "relative_foot_displacement_px": -0.24751935827885063
+    },
+    {
+      "from": 4,
+      "to": 5,
+      "support_retreat_px": 1.2346773721540245,
+      "ground_retreat_at_initial_speed_px": 3.625,
+      "relative_foot_displacement_px": 2.3903226278459755
+    },
+    {
+      "from": 5,
+      "to": 6,
+      "support_retreat_px": 3.159895354697177,
+      "ground_retreat_at_initial_speed_px": 3.625,
+      "relative_foot_displacement_px": 0.4651046453028229
+    },
+    {
+      "from": 6,
+      "to": 7,
+      "support_retreat_px": 2.773742804687828,
+      "ground_retreat_at_initial_speed_px": 3.625,
+      "relative_foot_displacement_px": 0.8512571953121721
+    },
+    {
+      "from": 7,
+      "to": 8,
+      "support_retreat_px": 4.303041170830333,
+      "ground_retreat_at_initial_speed_px": 3.625,
+      "relative_foot_displacement_px": -0.6780411708303333
+    },
+    {
+      "from": 8,
+      "to": 9,
+      "support_retreat_px": 6.038781456834251,
+      "ground_retreat_at_initial_speed_px": 3.625,
+      "relative_foot_displacement_px": -2.4137814568342506
+    },
+    {
+      "from": 9,
+      "to": 10,
+      "support_retreat_px": 5.6611192256301734,
+      "ground_retreat_at_initial_speed_px": 3.625,
+      "relative_foot_displacement_px": -2.0361192256301734
+    },
+    {
+      "from": 10,
+      "to": 11,
+      "support_retreat_px": 1.675363154308556,
+      "ground_retreat_at_initial_speed_px": 3.625,
+      "relative_foot_displacement_px": 1.949636845691444
+    },
+    {
+      "from": 11,
+      "to": 12,
+      "support_retreat_px": 5.649966528724441,
+      "ground_retreat_at_initial_speed_px": 3.625,
+      "relative_foot_displacement_px": -2.024966528724441
+    },
+    {
+      "from": 12,
+      "to": 13,
+      "support_retreat_px": 2.4110475494969137,
+      "ground_retreat_at_initial_speed_px": 3.625,
+      "relative_foot_displacement_px": 1.2139524505030863
+    },
+    {
+      "from": 13,
+      "to": 14,
+      "support_retreat_px": 4.56381399234165,
+      "ground_retreat_at_initial_speed_px": 3.625,
+      "relative_foot_displacement_px": -0.9388139923416503
+    },
+    {
+      "from": 14,
+      "to": 15,
+      "support_retreat_px": 0.7509174260290052,
+      "ground_retreat_at_initial_speed_px": 3.625,
+      "relative_foot_displacement_px": 2.8740825739709948
+    },
+    {
+      "from": 15,
+      "to": 0,
+      "support_retreat_px": 2.5329177678861257,
+      "ground_retreat_at_initial_speed_px": 3.625,
+      "relative_foot_displacement_px": 1.0920822321138743
+    }
+  ]
+}

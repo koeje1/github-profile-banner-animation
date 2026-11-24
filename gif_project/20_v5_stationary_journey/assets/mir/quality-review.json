@@ -1,0 +1,22 @@
+{
+  "selected_source": "source-sheet-relaxed.png",
+  "generation_method": "Built-in image_gen; first 16-pose atlas followed by one targeted full-body posture and foreleg edit.",
+  "selected_pose_files": "frame-0.png through frame-15.png",
+  "inspection": "Viewed full generated atlases and final 4x4 contact sheet at 2x nearest-neighbor size.",
+  "actual_continuous_screen_playback_observed": false,
+  "improvements_observed": [
+    "Sixteen distinct whole-body drawings provide intermediate wing angles through the downstroke and recovery.",
+    "The selected second pass lowers the body into a more horizontal flying posture.",
+    "Front legs now hang softly below the chest rather than being curled up in front of it.",
+    "Horn-based rigid registration limits measured head landmark variation to approximately 0.54px horizontally and 0.27px vertically at delivery size.",
+    "All visible sprites fit within the 160x100 canvas with margins, and their full visible width is 99-102px.",
+    "Original generated alpha is retained in both source files; no color or alpha fringe was erased. Premultiplied-alpha resampling is used."
+  ],
+  "remaining_limits": [
+    "The final-to-first transition retains some tail/hip silhouette change; its checkerboard-composited full-crop MAD is 8.90 versus 7.78 for the largest other adjacent transition. This is a flag for visual review, not proof of a bad loop by itself.",
+    "Small generated contour changes remain even with stable head registration.",
+    "Foreleg secondary movement is restrained; naturalness must be judged in the assembled moving banner."
+  ],
+  "timing": {"frame_ms": 80, "frames": 16, "cycle_ms": 1280, "duplicate_terminal_pose": false},
+  "recommendation": "Use the relaxed second pass for V20 assembly, then visually review the native-size loop before calling it final."
+}

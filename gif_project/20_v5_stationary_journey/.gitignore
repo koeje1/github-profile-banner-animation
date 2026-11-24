@@ -1,0 +1,4 @@
+__pycache__/
+exports/encode.log
+exports/three-loop-decode.log
+review/encode-options/sample-*.gif

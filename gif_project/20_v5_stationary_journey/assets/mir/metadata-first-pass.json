@@ -1,0 +1,686 @@
+{
+  "source": "source-sheet.png",
+  "source_size": [
+    1448,
+    1086
+  ],
+  "source_grid": [
+    4,
+    4
+  ],
+  "source_type": "New whole-body illustrated poses generated with built-in image_gen using approved V17 and V19 references.",
+  "source_sha256": "6327a75173cc5ade91f2d96c31d2cac4371a8a084fd063fcf3c8be2b09c66869",
+  "canvas": [
+    160,
+    100
+  ],
+  "body_anchor": [
+    80,
+    60
+  ],
+  "horn_anchor": [
+    94,
+    26
+  ],
+  "uniform_scale": 0.35,
+  "direction": "right",
+  "mirrored": false,
+  "order": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "recommended_frame_ms": 80,
+  "recommended_cycle_ms": 1280,
+  "unique_whole_body_frames": 16,
+  "duplicate_terminal_pose": false,
+  "processing": "Equal-cell crop, uniform premultiplied-alpha bicubic resampling and rigid head registration only. No recolor, alpha threshold edit, contour erase, per-frame fitting, limb cutting or morphing.",
+  "source_alpha_preserved": true,
+  "source_fringe": {
+    "red_pixel_count": 23420,
+    "red_pixel_max_alpha": 5,
+    "handling": "Preserved untouched in source; premultiplied-alpha sampling prevents invisible RGB bleed."
+  },
+  "registration": {
+    "landmark": "golden horn centroid in fixed upper-head ROI",
+    "measured_output_horn_x_range": [
+      93.34210526315789,
+      93.98113207547169
+    ],
+    "measured_output_horn_y_range": [
+      25.471153846153847,
+      25.79047619047619
+    ]
+  },
+  "adjacent_frame_MAD_with_seam_first": [
+    5.982125,
+    5.075479166666667,
+    4.947104166666667,
+    5.045416666666667,
+    5.849041666666666,
+    5.9597083333333325,
+    5.259250000000001,
+    5.496166666666667,
+    4.471916666666666,
+    4.238979166666667,
+    3.9242500000000002,
+    5.0203125,
+    3.9908333333333332,
+    5.235354166666667,
+    6.795854166666667,
+    5.680875
+  ],
+  "preview_gif_all_frames_decoded_exactly": true,
+  "limits": [
+    "Generated drawings can retain small contour and proportion changes; landmark registration does not prove visual identity.",
+    "Wing motion quality must be reviewed at native size in the full banner.",
+    "An 80ms authored pose hold is a timing choice, not an assertion of source-game animation."
+  ],
+  "frames": [
+    {
+      "index": 0,
+      "file": "frame-0.png",
+      "source_cell": [
+        0,
+        0,
+        362,
+        272
+      ],
+      "source_horn_roi": [
+        188,
+        14,
+        290,
+        79
+      ],
+      "source_horn_centroid": [
+        244.0533484676504,
+        57.972758229284906
+      ],
+      "source_horn_pixels": 881,
+      "measured_output_horn_centroid": [
+        93.6923076923077,
+        25.557692307692307
+      ],
+      "measured_output_horn_pixels": 104,
+      "visible_bbox_alpha_128": [
+        28,
+        19,
+        121,
+        83
+      ],
+      "visible_size_alpha_128": [
+        93,
+        64
+      ],
+      "sha256": "1909ded6735e5f3afc297e6d1b97618083399884b0af0877743c733b6db39825"
+    },
+    {
+      "index": 1,
+      "file": "frame-1.png",
+      "source_cell": [
+        362,
+        0,
+        724,
+        272
+      ],
+      "source_horn_roi": [
+        188,
+        14,
+        290,
+        79
+      ],
+      "source_horn_centroid": [
+        243.3394495412844,
+        58.169724770642205
+      ],
+      "source_horn_pixels": 872,
+      "measured_output_horn_centroid": [
+        93.61538461538461,
+        25.471153846153847
+      ],
+      "measured_output_horn_pixels": 104,
+      "visible_bbox_alpha_128": [
+        28,
+        19,
+        122,
+        83
+      ],
+      "visible_size_alpha_128": [
+        94,
+        64
+      ],
+      "sha256": "20d19914210d8294552d6c5216415817e74ae7ad8be25bb7bf58b430e2cb424c"
+    },
+    {
+      "index": 2,
+      "file": "frame-2.png",
+      "source_cell": [
+        724,
+        0,
+        1086,
+        272
+      ],
+      "source_horn_roi": [
+        188,
+        14,
+        290,
+        79
+      ],
+      "source_horn_centroid": [
+        243.40615058324497,
+        58.33085896076352
+      ],
+      "source_horn_pixels": 943,
+      "measured_output_horn_centroid": [
+        93.34210526315789,
+        25.63157894736842
+      ],
+      "measured_output_horn_pixels": 114,
+      "visible_bbox_alpha_128": [
+        26,
+        19,
+        122,
+        83
+      ],
+      "visible_size_alpha_128": [
+        96,
+        64
+      ],
+      "sha256": "a0097a0181a70e4fd6981db231c3bb6fc122313b9a266fcfd3d74a67f9b03331"
+    },
+    {
+      "index": 3,
+      "file": "frame-3.png",
+      "source_cell": [
+        1086,
+        0,
+        1448,
+        272
+      ],
+      "source_horn_roi": [
+        188,
+        14,
+        290,
+        79
+      ],
+      "source_horn_centroid": [
+        243.3574514038877,
+        58.05075593952484
+      ],
+      "source_horn_pixels": 926,
+      "measured_output_horn_centroid": [
+        93.60747663551402,
+        25.560747663551403
+      ],
+      "measured_output_horn_pixels": 107,
+      "visible_bbox_alpha_128": [
+        26,
+        19,
+        122,
+        83
+      ],
+      "visible_size_alpha_128": [
+        96,
+        64
+      ],
+      "sha256": "dace166bfcb453a28e405b81fd1428fd87a5b1e5d030d4e1c82b03b8684a2058"
+    },
+    {
+      "index": 4,
+      "file": "frame-4.png",
+      "source_cell": [
+        0,
+        272,
+        362,
+        543
+      ],
+      "source_horn_roi": [
+        188,
+        14,
+        290,
+        79
+      ],
+      "source_horn_centroid": [
+        244.02452025586354,
+        58.16417910447761
+      ],
+      "source_horn_pixels": 938,
+      "measured_output_horn_centroid": [
+        93.5,
+        25.71186440677966
+      ],
+      "measured_output_horn_pixels": 118,
+      "visible_bbox_alpha_128": [
+        25,
+        19,
+        121,
+        83
+      ],
+      "visible_size_alpha_128": [
+        96,
+        64
+      ],
+      "sha256": "ce7730b8e8695f22e634166d4f0658b0a49bd2a99bff701255997fe6a48514b0"
+    },
+    {
+      "index": 5,
+      "file": "frame-5.png",
+      "source_cell": [
+        362,
+        272,
+        724,
+        543
+      ],
+      "source_horn_roi": [
+        188,
+        14,
+        290,
+        79
+      ],
+      "source_horn_centroid": [
+        244.24249422632795,
+        57.42494226327945
+      ],
+      "source_horn_pixels": 866,
+      "measured_output_horn_centroid": [
+        93.70476190476191,
+        25.79047619047619
+      ],
+      "measured_output_horn_pixels": 105,
+      "visible_bbox_alpha_128": [
+        25,
+        19,
+        121,
+        83
+      ],
+      "visible_size_alpha_128": [
+        96,
+        64
+      ],
+      "sha256": "47527b73a237153a16c24abadda68ee3bc132812bca8beb59e9e21bb8e755dd9"
+    },
+    {
+      "index": 6,
+      "file": "frame-6.png",
+      "source_cell": [
+        724,
+        272,
+        1086,
+        543
+      ],
+      "source_horn_roi": [
+        188,
+        14,
+        290,
+        79
+      ],
+      "source_horn_centroid": [
+        244.25799573560766,
+        57.89872068230277
+      ],
+      "source_horn_pixels": 938,
+      "measured_output_horn_centroid": [
+        93.6068376068376,
+        25.70940170940171
+      ],
+      "measured_output_horn_pixels": 117,
+      "visible_bbox_alpha_128": [
+        24,
+        19,
+        121,
+        83
+      ],
+      "visible_size_alpha_128": [
+        97,
+        64
+      ],
+      "sha256": "64a5e1c9cf345c23ad208bdd91054c09f7969411da5457c112e0ed57c2a607bb"
+    },
+    {
+      "index": 7,
+      "file": "frame-7.png",
+      "source_cell": [
+        1086,
+        272,
+        1448,
+        543
+      ],
+      "source_horn_roi": [
+        188,
+        14,
+        290,
+        79
+      ],
+      "source_horn_centroid": [
+        243.68403171007927,
+        57.30690826727067
+      ],
+      "source_horn_pixels": 883,
+      "measured_output_horn_centroid": [
+        93.78504672897196,
+        25.738317757009344
+      ],
+      "measured_output_horn_pixels": 107,
+      "visible_bbox_alpha_128": [
+        24,
+        19,
+        122,
+        85
+      ],
+      "visible_size_alpha_128": [
+        98,
+        66
+      ],
+      "sha256": "ddf4a2c0a430c7dfc683cf5b63520d2c87fbe557d59b6651f2dcfa5984d4bf08"
+    },
+    {
+      "index": 8,
+      "file": "frame-8.png",
+      "source_cell": [
+        0,
+        543,
+        362,
+        814
+      ],
+      "source_horn_roi": [
+        188,
+        14,
+        290,
+        79
+      ],
+      "source_horn_centroid": [
+        243.44289044289044,
+        57.63636363636363
+      ],
+      "source_horn_pixels": 858,
+      "measured_output_horn_centroid": [
+        93.48514851485149,
+        25.623762376237625
+      ],
+      "measured_output_horn_pixels": 101,
+      "visible_bbox_alpha_128": [
+        23,
+        19,
+        122,
+        89
+      ],
+      "visible_size_alpha_128": [
+        99,
+        70
+      ],
+      "sha256": "b573347678b6251bb1de32acc4454a733becae09be11e1c4c9f28e85788bf661"
+    },
+    {
+      "index": 9,
+      "file": "frame-9.png",
+      "source_cell": [
+        362,
+        543,
+        724,
+        814
+      ],
+      "source_horn_roi": [
+        188,
+        14,
+        290,
+        79
+      ],
+      "source_horn_centroid": [
+        243.47859495060374,
+        57.911086717892424
+      ],
+      "source_horn_pixels": 911,
+      "measured_output_horn_centroid": [
+        93.43243243243244,
+        25.72972972972973
+      ],
+      "measured_output_horn_pixels": 111,
+      "visible_bbox_alpha_128": [
+        23,
+        19,
+        122,
+        84
+      ],
+      "visible_size_alpha_128": [
+        99,
+        65
+      ],
+      "sha256": "38e57834c1e0dcc31845283a6935bea67f71063431603a11ba00ec7c92e849cb"
+    },
+    {
+      "index": 10,
+      "file": "frame-10.png",
+      "source_cell": [
+        724,
+        543,
+        1086,
+        814
+      ],
+      "source_horn_roi": [
+        188,
+        14,
+        290,
+        79
+      ],
+      "source_horn_centroid": [
+        243.16191562143672,
+        57.664766248574686
+      ],
+      "source_horn_pixels": 877,
+      "measured_output_horn_centroid": [
+        93.53398058252426,
+        25.689320388349515
+      ],
+      "measured_output_horn_pixels": 103,
+      "visible_bbox_alpha_128": [
+        23,
+        19,
+        122,
+        84
+      ],
+      "visible_size_alpha_128": [
+        99,
+        65
+      ],
+      "sha256": "23ff9acaa06e1d79b4da86eaf42d309c1104836860f13b5a701ca338549c4ea7"
+    },
+    {
+      "index": 11,
+      "file": "frame-11.png",
+      "source_cell": [
+        1086,
+        543,
+        1448,
+        814
+      ],
+      "source_horn_roi": [
+        188,
+        14,
+        290,
+        79
+      ],
+      "source_horn_centroid": [
+        243.0921052631579,
+        58.28947368421053
+      ],
+      "source_horn_pixels": 912,
+      "measured_output_horn_centroid": [
+        93.4862385321101,
+        25.788990825688074
+      ],
+      "measured_output_horn_pixels": 109,
+      "visible_bbox_alpha_128": [
+        22,
+        19,
+        122,
+        84
+      ],
+      "visible_size_alpha_128": [
+        100,
+        65
+      ],
+      "sha256": "74f4547fbf04938c42f6396ffde5de030e36db808bbeb8b554b739b8c1379d51"
+    },
+    {
+      "index": 12,
+      "file": "frame-12.png",
+      "source_cell": [
+        0,
+        814,
+        362,
+        1086
+      ],
+      "source_horn_roi": [
+        188,
+        14,
+        290,
+        79
+      ],
+      "source_horn_centroid": [
+        243.1958041958042,
+        58.75874125874126
+      ],
+      "source_horn_pixels": 858,
+      "measured_output_horn_centroid": [
+        93.8076923076923,
+        25.576923076923077
+      ],
+      "measured_output_horn_pixels": 104,
+      "visible_bbox_alpha_128": [
+        22,
+        19,
+        122,
+        84
+      ],
+      "visible_size_alpha_128": [
+        100,
+        65
+      ],
+      "sha256": "bc361e007609225b28267a82e40b41d146905765373af897ac9a0613965618de"
+    },
+    {
+      "index": 13,
+      "file": "frame-13.png",
+      "source_cell": [
+        362,
+        814,
+        724,
+        1086
+      ],
+      "source_horn_roi": [
+        188,
+        14,
+        290,
+        79
+      ],
+      "source_horn_centroid": [
+        243.82387022016223,
+        58.84241019698725
+      ],
+      "source_horn_pixels": 863,
+      "measured_output_horn_centroid": [
+        93.98113207547169,
+        25.754716981132077
+      ],
+      "measured_output_horn_pixels": 106,
+      "visible_bbox_alpha_128": [
+        24,
+        19,
+        122,
+        84
+      ],
+      "visible_size_alpha_128": [
+        98,
+        65
+      ],
+      "sha256": "dc8f56da1c17d8b5daab1e92995a46989856ed771cbeda7900d7ab4b893e5e84"
+    },
+    {
+      "index": 14,
+      "file": "frame-14.png",
+      "source_cell": [
+        724,
+        814,
+        1086,
+        1086
+      ],
+      "source_horn_roi": [
+        188,
+        14,
+        290,
+        79
+      ],
+      "source_horn_centroid": [
+        243.77117711771177,
+        59.24642464246425
+      ],
+      "source_horn_pixels": 909,
+      "measured_output_horn_centroid": [
+        93.56756756756756,
+        25.73873873873874
+      ],
+      "measured_output_horn_pixels": 111,
+      "visible_bbox_alpha_128": [
+        24,
+        19,
+        121,
+        83
+      ],
+      "visible_size_alpha_128": [
+        97,
+        64
+      ],
+      "sha256": "e426befbc44c18f22f0ebdffec48fce79c19a01bf25b48aa4f6a8945324925f1"
+    },
+    {
+      "index": 15,
+      "file": "frame-15.png",
+      "source_cell": [
+        1086,
+        814,
+        1448,
+        1086
+      ],
+      "source_horn_roi": [
+        188,
+        14,
+        290,
+        79
+      ],
+      "source_horn_centroid": [
+        244.0822072072072,
+        59.01463963963964
+      ],
+      "source_horn_pixels": 888,
+      "measured_output_horn_centroid": [
+        93.80909090909091,
+        25.763636363636362
+      ],
+      "measured_output_horn_pixels": 110,
+      "visible_bbox_alpha_128": [
+        26,
+        19,
+        121,
+        84
+      ],
+      "visible_size_alpha_128": [
+        95,
+        65
+      ],
+      "sha256": "d42bc0a4941da8471c9927b5fc3de2d2d1d9270b50e7251b7d2902edbcd1cb0a"
+    }
+  ]
+}

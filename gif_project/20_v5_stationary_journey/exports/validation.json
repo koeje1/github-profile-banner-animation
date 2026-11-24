@@ -1,0 +1,119 @@
+{
+  "status": "Encoding and loop mechanics passed; visual findings are recorded in README.",
+  "size": [
+    800,
+    348
+  ],
+  "frame_count": 576,
+  "frame_duration_ms": 40,
+  "duration_ms": 23040,
+  "pose_duration_ms": 80,
+  "authored_whole_poses": {
+    "evan": 16,
+    "mir": 16
+  },
+  "actors_fixed_at_x": [
+    471,
+    357
+  ],
+  "evan_floor": 284,
+  "world_width": 1044,
+  "background_speed_px_per_second": 45.3125,
+  "background_scroll": "Full panorama moves left; no terrain conveyor strip or background dissolve.",
+  "exact_actor_and_background_phase_closure": true,
+  "endpoint_and_next_loop_frame_exact": true,
+  "seam_MAD": 19.40184985632184,
+  "min_step_MAD": 9.843262691570882,
+  "mean_step_MAD": 15.357564240796277,
+  "max_step_MAD": 19.375055076628353,
+  "seam_within_regular_frame_step_range": false,
+  "global_palette_colors": 96,
+  "global_palette_sample_indices": [
+    0,
+    25,
+    50,
+    75,
+    100,
+    125,
+    150,
+    175,
+    200,
+    225,
+    250,
+    275,
+    300,
+    325,
+    350,
+    375,
+    400,
+    425,
+    450,
+    475,
+    500,
+    525,
+    550,
+    575
+  ],
+  "reserved_crystal_colors": [
+    [
+      80,
+      170,
+      205
+    ],
+    [
+      115,
+      198,
+      235
+    ],
+    [
+      160,
+      220,
+      250
+    ],
+    [
+      205,
+      243,
+      255
+    ]
+  ],
+  "gif": {
+    "encoded_frames": 576,
+    "expanded_source_frames": 576,
+    "total_duration_ms": 23040,
+    "frame_duration_ms_values": [
+      40
+    ],
+    "all_decoded_frames_match_indexed_source": true,
+    "loop": 0
+  },
+  "mp4": {
+    "codec": "h264",
+    "fps": 25.0,
+    "decoded_frames": 576,
+    "three_loop_decoded_frames": 1728,
+    "decode_errors": "",
+    "decoded_sample_indices": [
+      0,
+      144,
+      288,
+      432,
+      575
+    ]
+  },
+  "limits": [
+    "Whole-pose drawings can retain small anatomy changes and uneven planted-foot travel.",
+    "Pose holds are 80 ms; background output is 40 ms.",
+    "File tests do not establish natural movement."
+  ],
+  "files": {
+    "banner-v5-stationary.gif": {
+      "bytes": 89308958,
+      "sha256": "6aeb8426adaed37caaef5e6a16f10ac9d220bbd34b17715e88ac216ad4421f53"
+    },
+    "banner-v5-stationary.mp4": {
+      "bytes": 5636633,
+      "sha256": "e323c1f826a1624aaaed1181558de6e66f6481324d84329e1ed97e7224d70018"
+    }
+  },
+  "elapsed_seconds": 65.39929560000019
+}
