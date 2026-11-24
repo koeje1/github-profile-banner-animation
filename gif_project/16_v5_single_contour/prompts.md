@@ -1,0 +1,11 @@
+# 생성 프롬프트
+
+내장 image_gen 도구로 두 자산을 생성했습니다. 원본 참조는 `assets/approved-master.png`입니다. 원본 및 이전 버전은 보존했습니다.
+
+## 분리형 캐릭터
+
+Create a transparent sprite RIG PARTS atlas for the two tiny characters in reference. Strict 4 columns x 2 rows equal cells, each part centered isolated, no labels, no shadows, true alpha. Pixel art polished matching reference identity. All parts shown side view facing RIGHT, same pixel scale in all cells. First row Evan: cell1 HEAD AND TORSO AND COAT ONLY, no arms and no legs, keep brown plum short hair gold circlet red jewel, slim dark gold trim coat; cell2 ONE COMPLETE relaxed arm shoulder to hand without staff, straight downward; cell3 ONE COMPLETE bent right arm holding entire cyan crystal staff upright, shoulder to fingers/staff; cell4 ONE COMPLETE leg from hip to boot, near straight vertically with knee slightly bent and boot pointing right. Second row Mir: cell1 BODY including head horns neck torso belly wings tail, NO LEGS, cute young purple dragon exactly reference; cell2 ONE COMPLETE front leg from shoulder down to paw, almost straight downward; cell3 ONE COMPLETE hind leg from haunch down to paw, almost straight downward; cell4 blank transparent. Each component must have extra overlap at joint so it can be attached without gap. Body remains full natural shape with no holes, just omit limbs. Do not draw a complete character in any cell. All feet rightwards and near-flat, no long stride. Same rich original colors and elegant cute proportions, not chunky generic chibi. Maximize available resolution, atlas wide 2:1.
+
+## 반복 지면
+
+Create a horizontal seamless repeating terrain texture strip based on the reference's narrow walking path and exposed soil below it. Pixel art exact color palette dusk mauve dark purple soil pink fallen cherry blossom petals small yellow grass and dark moss. No characters, no tree trunk, no building, no sky, no text. Wide 3:1 texture. TOP 15 percent small grass and tiny pink flowers; next 15 percent a thin flat walkable warm ochre dirt trail; lower 70 percent dark exposed rocky soil, fading dark purple at bottom. Strictly horizontally tileable: left edge and right edge join seamlessly. Flat horizon, no slope. Fine intricate pixel detail at reference scale, avoid giant rocks or large flowers.

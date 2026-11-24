@@ -1,0 +1,9 @@
+<!doctype html><html lang="ko"><meta charset="utf-8"><title>Single-contour banner test</title>
+<style>body{background:#211925;color:#eadce7;font:16px system-ui;max-width:1200px;margin:30px auto;padding:0 20px}video,img{width:100%;display:block}button{padding:9px 14px;margin:12px 8px 12px 0}a{color:#cdd7ff}small{color:#d2bfd0}</style>
+<h1>배너 테스트 브랜치</h1><p>12초 반복 · 화면 내 캐릭터 위치 고정 · 배경 이중 합성 제거</p>
+<video id="v" src="exports/banner-v5-single-contour.mp4" autoplay muted loop controls playsinline></video>
+<button onclick="v.playbackRate=1;v.play()">정상 속도</button><button onclick="v.playbackRate=.5;v.play()">절반 속도</button><button onclick="v.currentTime=11.5;v.play()">루프 경계</button><p id="s"></p>
+<h2>GIF</h2><img src="exports/banner-v5-single-contour.gif" alt="반복 배너">
+<p><a href="exports/banner-v5-single-contour.gif">GIF</a> · <a href="README.md">검수 범위와 제한</a></p>
+<small>프레임 및 인코딩 검증을 통과한 테스트 후보입니다. 실제 화면 재생의 자연스러움을 검증 완료했다고 표시하지 않습니다.</small>
+<script>let last=0,loops=0;setInterval(()=>{if(v.currentTime<last-.5)loops++;last=v.currentTime;document.querySelector('#s').textContent=`${v.currentTime.toFixed(2)}초 / ${v.duration.toFixed(2)}초 · 반복 ${loops}회 · ${v.paused?'일시정지':'재생 중'}`},100)</script></html>

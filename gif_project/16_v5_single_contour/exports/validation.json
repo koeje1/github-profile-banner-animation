@@ -1,0 +1,41 @@
+{
+  "status": "test candidate; visual playback not certified",
+  "frames": 300,
+  "fps": 25,
+  "duration_ms": 12000,
+  "gif_loop": 0,
+  "gif_all_frame_duration_ms": 40,
+  "endpoint_and_next_frame_exact": true,
+  "source_vs_lossless_master_max_frame_MAD": 0,
+  "gif_decoded_matches_all_quantized_source_frames": true,
+  "static_building_patch_identical_all_frames": true,
+  "seam_MAD": 1.0683588761174967,
+  "ordinary_step_mean_MAD": 1.09250826509822,
+  "ordinary_step_max_MAD": 1.2001234567901233,
+  "webp_lossless": true,
+  "webp_size": [
+    800,
+    348
+  ],
+  "webp_max_frame_MAD": 0.0,
+  "webp_max_actor_crop_MAD": 0.0,
+  "frame_review": "All 300 character crops in 12 contact sheets and 48 full-scene samples inspected; no detached body or duplicated character contours observed in those stills.",
+  "realtime_decode": {
+    "cycles": 3,
+    "frames": 900,
+    "wall_seconds": 35.46545310001238,
+    "errors": "",
+    "screen_playback": false
+  },
+  "playback_limit": "Browser local new-tab connection failed. Native Windows Media Player setup window access approval timed out. Unrelated browser tabs were not accessed.",
+  "remaining_limits": [
+    "2D rig remains stylized and has limited limb articulation; perceptual naturalness not certified",
+    "far scenery is stationary, foreground scrolls; no full-scene panorama travel",
+    "GIF has a 256-color palette; WebP is lossless at delivery size, larger master retained locally"
+  ],
+  "files": {
+    "banner-v5-single-contour.gif": 10057552,
+    "banner-v5-single-contour.mp4": 2895882,
+    "banner-v5-single-contour.webp": 54124166
+  }
+}
