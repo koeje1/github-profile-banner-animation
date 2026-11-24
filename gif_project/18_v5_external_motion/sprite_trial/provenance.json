@@ -1,0 +1,254 @@
+{
+  "acquired": "2026-11-24",
+  "provider": "MapleStory.IO public API",
+  "region": "GMS",
+  "version": "255",
+  "rights": "MapleStory and all original character sprites are copyrighted by NEXON. These are not CC0 or public-domain assets. Free unauthenticated API access does not transfer rights.",
+  "evan": {
+    "npc_id": 1540407,
+    "skin_id": 2000,
+    "item_ids": [
+      1003089,
+      1050168,
+      20537,
+      1082272,
+      33157,
+      1072443,
+      1382105
+    ],
+    "action": "walk1",
+    "source_json": "https://maplestory.io/api/GMS/255/npc/1540407",
+    "source_png_template": "https://maplestory.io/api/GMS/255/npc/1540407/render/walk1/{frame}",
+    "source_animated_gif": "https://maplestory.io/api/GMS/255/Character/animated/2000/1003089,1050168,20537,1082272,33157,1072443,1382105/walk1/0",
+    "delay_template": "https://maplestory.io/api/wz/GMS/255/Character/00002000.img/walk1/{frame}/delay",
+    "alignment": "Original PNGs registered against API-authored GIF alpha masks, with additional safe margins. The aligned 128x128 canvas is an internal compositing canvas.",
+    "aligned_display_anchor": [
+      81,
+      96
+    ],
+    "frames": [
+      {
+        "index": 0,
+        "file": "evan/aligned-0.png",
+        "raw_file": "evan/frame-0.png",
+        "raw_size": [
+          78,
+          80
+        ],
+        "raw_sha256": "36904237559207f06b9c60c038e13a2e04ffb2b5e9590ed65ef08dd8c54e1207",
+        "delay_ms": 180,
+        "placement_in_source_gif": [
+          2,
+          -2
+        ],
+        "registration_alpha_mismatch_pixels": 2,
+        "placement_in_aligned_png": [
+          23,
+          18
+        ]
+      },
+      {
+        "index": 1,
+        "file": "evan/aligned-1.png",
+        "raw_file": "evan/frame-1.png",
+        "raw_size": [
+          80,
+          79
+        ],
+        "raw_sha256": "68f8bf9e8e1ab781f76605c1a543c4f4691455244f77e31b420e0847825f6a67",
+        "delay_ms": 180,
+        "placement_in_source_gif": [
+          -2,
+          -1
+        ],
+        "registration_alpha_mismatch_pixels": 0,
+        "placement_in_aligned_png": [
+          19,
+          19
+        ]
+      },
+      {
+        "index": 2,
+        "file": "evan/aligned-2.png",
+        "raw_file": "evan/frame-2.png",
+        "raw_size": [
+          78,
+          80
+        ],
+        "raw_sha256": "61caa49f6eb376db278147b8943dfeec26320db84a1156dfe54e4cc809f52edf",
+        "delay_ms": 180,
+        "placement_in_source_gif": [
+          2,
+          -2
+        ],
+        "registration_alpha_mismatch_pixels": 0,
+        "placement_in_aligned_png": [
+          23,
+          18
+        ]
+      },
+      {
+        "index": 3,
+        "file": "evan/aligned-3.png",
+        "raw_file": "evan/frame-3.png",
+        "raw_size": [
+          74,
+          85
+        ],
+        "raw_sha256": "c19e7ba4223cd98d3d0b48f773c6fc65ea6461e5d1570bf266cb560f776b17b0",
+        "delay_ms": 180,
+        "placement_in_source_gif": [
+          8,
+          -1
+        ],
+        "registration_alpha_mismatch_pixels": 0,
+        "placement_in_aligned_png": [
+          29,
+          19
+        ]
+      }
+    ]
+  },
+  "mir": {
+    "pet_id": 5000118,
+    "action": "move",
+    "source_json": "https://maplestory.io/api/GMS/255/pet/5000118",
+    "actions": "https://maplestory.io/api/GMS/255/pet/5000118/actions",
+    "alignment": "Exact per-frame origin from the API JSON, mapped to [64,96].",
+    "aligned_display_anchor": [
+      64,
+      96
+    ],
+    "frames": [
+      {
+        "index": 0,
+        "file": "mir/aligned-0.png",
+        "raw_file": "mir/frame-0.png",
+        "raw_size": [
+          43,
+          38
+        ],
+        "raw_sha256": "a7994aa8b9ce8b9fb4a321c9a679c7c2c9be6b1b6552ba5c20db9b80fb7eb6b4",
+        "delay_ms": 150,
+        "origin": {
+          "x": 22,
+          "y": 44,
+          "isEmpty": false
+        },
+        "placement_in_aligned_png": [
+          42,
+          52
+        ]
+      },
+      {
+        "index": 1,
+        "file": "mir/aligned-1.png",
+        "raw_file": "mir/frame-1.png",
+        "raw_size": [
+          41,
+          38
+        ],
+        "raw_sha256": "eeadd8aea488e5b8bfb376d03dc9cc4db2603587c96948c2a9f82a6ba5f11fe7",
+        "delay_ms": 150,
+        "origin": {
+          "x": 22,
+          "y": 43,
+          "isEmpty": false
+        },
+        "placement_in_aligned_png": [
+          42,
+          53
+        ]
+      },
+      {
+        "index": 2,
+        "file": "mir/aligned-2.png",
+        "raw_file": "mir/frame-2.png",
+        "raw_size": [
+          41,
+          38
+        ],
+        "raw_sha256": "29869a2ede689c32651cd363a7a4a2407f070ed54b7dd70c0592c5fcd0187d75",
+        "delay_ms": 150,
+        "origin": {
+          "x": 22,
+          "y": 42,
+          "isEmpty": false
+        },
+        "placement_in_aligned_png": [
+          42,
+          54
+        ]
+      },
+      {
+        "index": 3,
+        "file": "mir/aligned-3.png",
+        "raw_file": "mir/frame-3.png",
+        "raw_size": [
+          41,
+          38
+        ],
+        "raw_sha256": "1d6766cc8f08d1df841c6fbd83d1c62832358e8945ec4c345430d27d1366f793",
+        "delay_ms": 150,
+        "origin": {
+          "x": 22,
+          "y": 44,
+          "isEmpty": false
+        },
+        "placement_in_aligned_png": [
+          42,
+          52
+        ]
+      },
+      {
+        "index": 4,
+        "file": "mir/aligned-4.png",
+        "raw_file": "mir/frame-4.png",
+        "raw_size": [
+          41,
+          38
+        ],
+        "raw_sha256": "b3dee56c602d27402b433a5ed80f9878bc11652801bbf7425f475fa1fabbc628",
+        "delay_ms": 150,
+        "origin": {
+          "x": 22,
+          "y": 45,
+          "isEmpty": false
+        },
+        "placement_in_aligned_png": [
+          42,
+          51
+        ]
+      },
+      {
+        "index": 5,
+        "file": "mir/aligned-5.png",
+        "raw_file": "mir/frame-5.png",
+        "raw_size": [
+          40,
+          38
+        ],
+        "raw_sha256": "fa340cb2b4c67d371ae587e86177621549be0f2678a46c4de8a12b2d2c66574a",
+        "delay_ms": 150,
+        "origin": {
+          "x": 22,
+          "y": 46,
+          "isEmpty": false
+        },
+        "placement_in_aligned_png": [
+          42,
+          50
+        ]
+      }
+    ]
+  },
+  "test": {
+    "facing": "Both originally left-facing; both mirrored to face right.",
+    "scale": "Uniform 2x nearest neighbor, no aspect distortion.",
+    "loop_ms": 3600,
+    "evan_cycle_ms": 720,
+    "mir_cycle_ms": 900,
+    "frame_step_ms": 30,
+    "movement": "In-place source walk cycles. No ground or full scene composited. No extra bobbing, limb transforms, morphs, or timing smoothing."
+  }
+}

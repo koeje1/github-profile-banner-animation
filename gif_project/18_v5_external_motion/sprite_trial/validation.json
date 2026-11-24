@@ -1,0 +1,28 @@
+{
+  "motion-test-checker.gif": {
+    "frames": 40,
+    "duration_ms": 3600,
+    "size": [
+      640,
+      300
+    ],
+    "loop": 0
+  },
+  "motion-test-transparent.gif": {
+    "frames": 40,
+    "duration_ms": 3600,
+    "size": [
+      640,
+      300
+    ],
+    "loop": 0
+  },
+  "evan_distinct_frames": 4,
+  "mir_distinct_frames": 6,
+  "evan_alpha_registration_error": [
+    2,
+    0,
+    0,
+    0
+  ]
+}

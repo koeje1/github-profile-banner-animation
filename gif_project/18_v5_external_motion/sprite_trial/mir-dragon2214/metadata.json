@@ -1,0 +1,148 @@
+{
+  "stage": 2214,
+  "animation": "move",
+  "motion": "Original dragon flight/hover cycle, not quadruped ground walking.",
+  "original_facing": "left",
+  "aligned_canvas": [
+    320,
+    240
+  ],
+  "aligned_origin": [
+    160,
+    170
+  ],
+  "mirrored_facing": "right",
+  "mirrored_origin": [
+    160,
+    170
+  ],
+  "cycle_ms": 900,
+  "frames": [
+    {
+      "index": 0,
+      "file": "aligned-0.png",
+      "raw_file": "frame-0.png",
+      "raw_size": [
+        181,
+        117
+      ],
+      "origin": [
+        89,
+        139
+      ],
+      "aligned_origin": [
+        160,
+        170
+      ],
+      "delay_ms": 150,
+      "opaque_bottom_relative_to_origin": -22,
+      "sha256": "bdea150373e6ad981e9cad406b496ff377d8e674b8bd13dc746914c26a5369e0",
+      "source": "https://maplestory.io/api/wz/GMS/255/Skill/Dragon/2214.img/move/0"
+    },
+    {
+      "index": 1,
+      "file": "aligned-1.png",
+      "raw_file": "frame-1.png",
+      "raw_size": [
+        176,
+        150
+      ],
+      "origin": [
+        89,
+        174
+      ],
+      "aligned_origin": [
+        160,
+        170
+      ],
+      "delay_ms": 150,
+      "opaque_bottom_relative_to_origin": -24,
+      "sha256": "d1a745b6e175868a8b7acfba15fcfaabb76a19e85943da1b47141079855e0485",
+      "source": "https://maplestory.io/api/wz/GMS/255/Skill/Dragon/2214.img/move/1"
+    },
+    {
+      "index": 2,
+      "file": "aligned-2.png",
+      "raw_file": "frame-2.png",
+      "raw_size": [
+        174,
+        136
+      ],
+      "origin": [
+        89,
+        161
+      ],
+      "aligned_origin": [
+        160,
+        170
+      ],
+      "delay_ms": 150,
+      "opaque_bottom_relative_to_origin": -25,
+      "sha256": "361a2fe3496fe936000020322ccb9373e2c58ec62d48773a023dfcf0f3c5224e",
+      "source": "https://maplestory.io/api/wz/GMS/255/Skill/Dragon/2214.img/move/2"
+    },
+    {
+      "index": 3,
+      "file": "aligned-3.png",
+      "raw_file": "frame-3.png",
+      "raw_size": [
+        181,
+        113
+      ],
+      "origin": [
+        89,
+        135
+      ],
+      "aligned_origin": [
+        160,
+        170
+      ],
+      "delay_ms": 150,
+      "opaque_bottom_relative_to_origin": -22,
+      "sha256": "3842b82c3d635ed94d3fa2a7d29043c539f65b646e40e49814392fd810f7d92e",
+      "source": "https://maplestory.io/api/wz/GMS/255/Skill/Dragon/2214.img/move/3"
+    },
+    {
+      "index": 4,
+      "file": "aligned-4.png",
+      "raw_file": "frame-4.png",
+      "raw_size": [
+        183,
+        115
+      ],
+      "origin": [
+        89,
+        134
+      ],
+      "aligned_origin": [
+        160,
+        170
+      ],
+      "delay_ms": 150,
+      "opaque_bottom_relative_to_origin": -19,
+      "sha256": "620f3a2ea7c1ffa280bfe58193419190949ae17a59badaf7b1147f358c8a64d6",
+      "source": "https://maplestory.io/api/wz/GMS/255/Skill/Dragon/2214.img/move/4"
+    },
+    {
+      "index": 5,
+      "file": "aligned-5.png",
+      "raw_file": "frame-5.png",
+      "raw_size": [
+        183,
+        115
+      ],
+      "origin": [
+        89,
+        135
+      ],
+      "aligned_origin": [
+        160,
+        170
+      ],
+      "delay_ms": 150,
+      "opaque_bottom_relative_to_origin": -20,
+      "sha256": "b892c4be733a03b81b07ae28b85c2e90d325372b65b7208a61fda4eb9be75553",
+      "source": "https://maplestory.io/api/wz/GMS/255/Skill/Dragon/2214.img/move/5"
+    }
+  ]
+}

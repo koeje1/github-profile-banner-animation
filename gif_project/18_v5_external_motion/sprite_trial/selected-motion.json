@@ -1,0 +1,42 @@
+{
+  "chosen_stage": 2211,
+  "reason": "Closest young-dragon silhouette; no adult horns, aura or oversized wings. Its original flight cycle is a better fit than imposing a fabricated ground walk.",
+  "evan": {
+    "folder": "evan",
+    "files": "aligned-{0..3}.png",
+    "canvas": [
+      128,
+      128
+    ],
+    "left_facing_anchor": [
+      81,
+      96
+    ],
+    "right_facing_anchor": [
+      47,
+      96
+    ],
+    "delay_ms": 180,
+    "cycle_ms": 720
+  },
+  "mir": {
+    "folder": "mir-dragon2211",
+    "files": "aligned-{0..5}.png",
+    "canvas": [
+      320,
+      240
+    ],
+    "left_facing_anchor": [
+      160,
+      170
+    ],
+    "right_facing_anchor": [
+      160,
+      170
+    ],
+    "delay_ms": 120,
+    "cycle_ms": 720
+  },
+  "alignment_note": "Mir anchor is the exact original WZ origin, which sits below his visible feet. This is intentional flight elevation. Evan anchor x=81 is a chosen display reference inside the source-GIF registration; its relative alignment between frames is source-derived.",
+  "rights": "NEXON copyrighted game sprites, freely accessible via MapleStory.IO. Not CC0 or public domain."
+}

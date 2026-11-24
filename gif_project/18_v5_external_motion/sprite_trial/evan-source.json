@@ -1,0 +1,22 @@
+{
+  "dialogue": {},
+  "name": "Evan",
+  "isShop": false,
+  "framebooks": {
+    "move": 1,
+    "stand": 1
+  },
+  "id": 1540407,
+  "isComponentNPC": true,
+  "componentSkin": 2000,
+  "componentIds": [
+    1003089,
+    1050168,
+    20537,
+    1082272,
+    33157,
+    1072443,
+    1382105
+  ],
+  "foundAt": []
+}

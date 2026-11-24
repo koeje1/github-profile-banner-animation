@@ -1,0 +1,91 @@
+{
+  "status": "file integrity passed; independent frame review completed; screen playback not observed",
+  "size": [
+    800,
+    348
+  ],
+  "frame_count": 672,
+  "duration_ms": 20160,
+  "frame_duration_ms": 30,
+  "fps": 33.333333333333336,
+  "evan_original_frames": 4,
+  "evan_frame_delay_ms": 180,
+  "mir_original_frames": 6,
+  "mir_frame_delay_ms": 120,
+  "original_pose_timing_exact": true,
+  "uniform_scale": 1,
+  "sprite_pixel_transform": "horizontal reflection only",
+  "sprite_registration": "source GIF registration for Evan; original WZ origin for Mir",
+  "evan_baseline_y": 287,
+  "mir_motion": "original flight, no fabricated legs or additional bob",
+  "travel_speed_px_s": 55,
+  "follower_distance_px": 110,
+  "ground_source_pixels_fixed_all_frames": true,
+  "ground_bounds": [
+    0,
+    270,
+    800,
+    348
+  ],
+  "house_source_pixels_fixed_all_frames": true,
+  "house_bounds": [
+    555,
+    168,
+    800,
+    348
+  ],
+  "trunk_source_pixels_fixed_all_frames": true,
+  "trunk_bounds": [
+    80,
+    120,
+    180,
+    260
+  ],
+  "exposed_cloud_patch_fixed_all_frames": true,
+  "cloud_bounds": [
+    706,
+    139,
+    787,
+    164
+  ],
+  "tree_motion": "local branch deflections; rooted trunk and ground copied from source",
+  "actor_wrap_frames": [
+    339
+  ],
+  "actors_and_shadows_fully_offscreen_at_wrap": true,
+  "every_forward_step_px": [
+    1,
+    2
+  ],
+  "gif_all_decoded_frames_match_indexed_source": true,
+  "mp4_three_loop_decode_errors": "",
+  "seam_MAD": 3.3597808908045983,
+  "mean_step_MAD": 1.5961599513364297,
+  "max_step_MAD": 3.5173742816091953,
+  "screen_playback_observed": false,
+  "limits": [
+    "Original game walk has four held poses; no invented in-between frames.",
+    "GIF has 255 colors; MP4 preserves more color.",
+    "Sprite naturalness is a visual judgment, not established by file checks."
+  ],
+  "files": {
+    "banner-v5-original-sprites.gif": {
+      "bytes": 19694215,
+      "sha256": "a38747978565cefb13202cadacfa847a05082cb0b72f966b25c5280284a2c775"
+    },
+    "banner-v5-original-sprites.mp4": {
+      "bytes": 5716617,
+      "sha256": "9b7379c93dedce4267ff6fffe56779e60fee9202faeec2ea8b694bd8008b87d2"
+    }
+  },
+  "elapsed_seconds": 31.107207799999742,
+  "independent_review": {
+    "original_source_and_registration": "completed",
+    "frame_review": "completed",
+    "fixes_applied": [
+      "30ms translation sampling",
+      "exposed-cloud wind mask"
+    ],
+    "retained_original_detail": "Evan pose3 staff spike extends 6px below sole boundary"
+  }
+}

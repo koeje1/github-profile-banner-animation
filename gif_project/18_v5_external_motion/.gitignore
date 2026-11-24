@@ -1,0 +1,7 @@
+__pycache__/
+ai_trial/
+exports/*.webp
+exports/*.log
+exports/optimized-trial.gif
+exports/gif-palette.png
+sprite_trial/foot-investigation.png

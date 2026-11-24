@@ -1,0 +1,125 @@
+{
+  "evan": [
+    {
+      "frame": 0,
+      "alpha_mass_preserved": true,
+      "aligned_bbox": [
+        25,
+        20,
+        99,
+        96
+      ]
+    },
+    {
+      "frame": 1,
+      "alpha_mass_preserved": true,
+      "aligned_bbox": [
+        21,
+        21,
+        97,
+        96
+      ]
+    },
+    {
+      "frame": 2,
+      "alpha_mass_preserved": true,
+      "aligned_bbox": [
+        25,
+        20,
+        99,
+        96
+      ]
+    },
+    {
+      "frame": 3,
+      "alpha_mass_preserved": true,
+      "aligned_bbox": [
+        31,
+        21,
+        101,
+        102
+      ]
+    }
+  ],
+  "mir-dragon2211": [
+    {
+      "frame": 0,
+      "alpha_mass_preserved": true,
+      "aligned_bbox": [
+        85,
+        67,
+        214,
+        152
+      ]
+    },
+    {
+      "frame": 1,
+      "alpha_mass_preserved": true,
+      "aligned_bbox": [
+        85,
+        67,
+        213,
+        153
+      ]
+    },
+    {
+      "frame": 2,
+      "alpha_mass_preserved": true,
+      "aligned_bbox": [
+        85,
+        69,
+        212,
+        154
+      ]
+    },
+    {
+      "frame": 3,
+      "alpha_mass_preserved": true,
+      "aligned_bbox": [
+        85,
+        68,
+        218,
+        155
+      ]
+    },
+    {
+      "frame": 4,
+      "alpha_mass_preserved": true,
+      "aligned_bbox": [
+        85,
+        67,
+        217,
+        154
+      ]
+    },
+    {
+      "frame": 5,
+      "alpha_mass_preserved": true,
+      "aligned_bbox": [
+        85,
+        66,
+        216,
+        153
+      ]
+    }
+  ],
+  "selected_gif": {
+    "frames": 8,
+    "durations_ms": [
+      120,
+      60,
+      60,
+      120,
+      120,
+      60,
+      60,
+      120
+    ],
+    "total_ms": 720,
+    "size": [
+      800,
+      350
+    ],
+    "loop": 0
+  }
+}

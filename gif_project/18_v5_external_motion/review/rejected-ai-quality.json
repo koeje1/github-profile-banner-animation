@@ -1,0 +1,28 @@
+{
+  "verdict": "Reject as final banner; keep only as an external video generation experiment.",
+  "generation": {
+    "space": "https://huggingface.co/spaces/dream2589632147/Dream-wan2-2-fp8da-aoti-preview-2",
+    "authentication": "anonymous",
+    "attempts": 1,
+    "server_reported_inference_seconds": 39.4,
+    "output": "raw-output.mp4",
+    "bytes": 4160904,
+    "dimensions": [832, 480],
+    "decoded_frames": 97,
+    "fps": 16,
+    "duration_seconds": 6.0625,
+    "first_and_last_reference_identical": true
+  },
+  "inspection": {
+    "method": "Visual inspection of decoded full scenes and 4x nearest-neighbor character crops at frames 0, 24, 48, 72, 96.",
+    "actual_continuous_screen_playback_performed": false,
+    "findings": [
+      "Evan loses his original identity: by frame 24 the hair length and silhouette change, by frame 48 the body has taller adult proportions and long hair, and by frame 72 he turns frontward and resembles a different character.",
+      "Mir's horn angles, head shape, wing shape and size change substantially during the clip.",
+      "First/last frame conditioning brings the final pose closer to the initial reference but does not preserve identity through intermediate frames.",
+      "The stone path remains visually intact in the inspected samples; this is better than the procedural conveyor-like ground.",
+      "The canopy and flowers visibly change between samples, but sampled stills alone cannot establish natural wind motion or a smooth loop."
+    ],
+    "conclusion": "The free external model is genuinely accessible and generated a video successfully, but this sample fails the essential original-character identity requirement. Do not describe it as a repaired or finished banner."
+  }
+}
