@@ -2,7 +2,7 @@
 
 검수 날짜: 2026-11-24. 최종 출력은 30ms 간격의 672프레임, 20.16초 반복이다. 확인 자료: `exports/poster.png`, 갱신된 `motion-native-contact.png`와 `travel-contact.jpg`, `entry-exit-review.jpg`, `wind-extremes.jpg`, 원본 스프라이트의 `sprite_trial/evan-feet-proof.png` 및 `mir-stage-comparison.png`. 동작 비교 시트의 60ms 표시는 비교용 표본 간격이며 최종 파일의 프레임 간격은 30ms다.
 
-이 검수는 실제 이미지를 읽은 정지 프레임·연속 시트 검수다. 파일 디코딩 성공을 자연스러운 동작의 증거로 취급하지 않았으며, 실제 화면의 연속 재생을 봤다고 주장하지 않는다.
+이 독립 검수는 실제 이미지를 읽은 정지 프레임·연속 시트 검수다. 파일 디코딩 성공을 자연스러운 동작의 증거로 취급하지 않았으며, 전체 영상의 연속 재생을 봤다고 주장하지 않는다. 이 검수 이후 주 작업자가 GitHub GIF 뷰어의 서로 다른 세 재생 시점에서 이동·포즈 변화·재진입을 확인했다. 후속 브라우저 관찰 범위는 `exports/validation.json`에 구분해 기록했다.
 
 ## 확인한 개선
 
