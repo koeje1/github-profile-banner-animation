@@ -1,0 +1,134 @@
+{
+  "status": "frame review and file integrity passed; screen playback not verified",
+  "frames": 300,
+  "fps": 25,
+  "duration_ms": 12000,
+  "native_size": [
+    1200,
+    522
+  ],
+  "gif_size": [
+    800,
+    348
+  ],
+  "gif_loop": 0,
+  "gif_all_frame_duration_ms": 40,
+  "gif_fixed_source_palette_colors": 255,
+  "gif_decoded_matches_all_quantized_source_frames": true,
+  "endpoint_and_next_frame_exact": true,
+  "lossless_master": {
+    "size": [
+      960,
+      418
+    ],
+    "rewritten_this_run": true,
+    "all_decoded_frames_match_resized_source": true,
+    "path": "review/master-lossless.webp"
+  },
+  "scenery_building_patch_identical_all_frames": true,
+  "scenery_building_patch_bounds": [
+    1000,
+    375,
+    1060,
+    395
+  ],
+  "seam_MAD": 0.46596477224350785,
+  "ordinary_step_mean_MAD": 0.4987222218662749,
+  "ordinary_step_max_MAD": 0.6027426564495529,
+  "seam_to_mean_step_ratio": 0.9343172447776942,
+  "review_artifacts": {
+    "character_contact_sheets": 12,
+    "character_frames": 300,
+    "character_crop": [
+      450,
+      297,
+      750,
+      447
+    ],
+    "full_scene_samples": 48,
+    "full_scene_frame_indices": [
+      0,
+      6,
+      13,
+      19,
+      25,
+      32,
+      38,
+      45,
+      51,
+      57,
+      64,
+      70,
+      76,
+      83,
+      89,
+      95,
+      102,
+      108,
+      115,
+      121,
+      127,
+      134,
+      140,
+      146,
+      153,
+      159,
+      165,
+      172,
+      178,
+      184,
+      191,
+      197,
+      204,
+      210,
+      216,
+      223,
+      229,
+      235,
+      242,
+      248,
+      254,
+      261,
+      267,
+      274,
+      280,
+      286,
+      293,
+      299
+    ]
+  },
+  "visual_review": {
+    "character_frames_reviewed": 300,
+    "full_scene_samples_reviewed": 48,
+    "aspect_ratio_preserved": true,
+    "scope": "Root examined frames000-149 and scenes0/1; independent reviewer examined150-299 andscene2; boundary298,299,0,1 enlarged. Root revisited final scene2 and poster after static-house fix.",
+    "findings": "No detached body/feet or duplicated character silhouettes observed in these stills; remaining stylized 2D gait limitations documented.",
+    "notes": [
+      "review/visual-audit.md",
+      "review/root-audit.md"
+    ]
+  },
+  "screen_playback": false,
+  "three_loop_decode": {
+    "purpose": "file integrity only; not a screen playback check",
+    "cycles": 3,
+    "frames": 900,
+    "wall_seconds": 0.6200977000000876,
+    "errors": ""
+  },
+  "remaining_limits": [
+    "2D articulated painted rig; frame review completed, continuous screen playback and perceptual naturalness not certified",
+    "distant scenery stays fixed while the narrow contact path scrolls",
+    "GIF uses a fixed 255-color source palette"
+  ],
+  "files": {
+    "banner-v5-weighted-walk.gif": 5372108,
+    "banner-v5-weighted-walk.mp4": 3649720,
+    "poster.png": 1247890
+  },
+  "elapsed_seconds": 106.90542170000003,
+  "playback_attempts": [
+    "In-app browser local preview connection timed out",
+    "Existing test-branch raw MP4 navigation blocked by browser client"
+  ]
+}

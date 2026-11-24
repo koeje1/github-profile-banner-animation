@@ -1,0 +1,6 @@
+__pycache__/
+review/master-lossless.webp
+exports/optimized.gif
+exports/*.webp
+review/rig-detail.png
+review/video-*.png

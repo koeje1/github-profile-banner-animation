@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>배너 보행 재검수</title>
+<style>body{background:#211925;color:#eadce7;font:16px system-ui;max-width:1200px;margin:28px auto;padding:0 20px}video,img{width:100%;height:auto;display:block}video[hidden]{display:none}button{padding:9px 14px;margin:12px 8px 12px 0}a{color:#cdd7ff}small{color:#d2bfd0}</style>
+<h1>배너 보행 재검수</h1><p>12초 반복 · 미르 네 발 보행 · 원본 지면 복원</p>
+<video id="v" src="exports/banner-v5-weighted-walk.mp4" autoplay muted loop controls playsinline></video>
+<button onclick="v.playbackRate=1;v.play()">정상 속도</button>
+<button onclick="v.playbackRate=.5;v.play()">절반 속도</button>
+<button onclick="v.currentTime=11.5;v.play()">루프 경계</button>
+<button onclick="v.pause();v.currentTime=(v.currentTime+.04)%12">다음 프레임</button>
+<button onclick="old.hidden=!old.hidden;old.currentTime=v.currentTime;if(!old.hidden)old.play()">이전 버전 비교</button>
+<p id="s" aria-live="off"></p>
+<video id="old" hidden src="../16_v5_single_contour/exports/banner-v5-single-contour.mp4" muted loop controls playsinline></video>
+<h2>GIF</h2><img src="exports/banner-v5-weighted-walk.gif" alt="벚꽃 아래 에반과 미르가 걷는 배너">
+<p><a href="exports/banner-v5-weighted-walk.gif">GIF 파일</a> · <a href="README.md">검수 기록</a></p>
+<script>let last=0,loops=0;setInterval(()=>{if(v.currentTime<last-.5)loops++;last=v.currentTime;let q=v.getVideoPlaybackQuality?.();document.querySelector('#s').textContent=`${v.currentTime.toFixed(2)} / ${(v.duration||0).toFixed(2)}초 · 반복 ${loops}회 · ${v.paused?'일시정지':'재생 중'} · 누락 ${q?.droppedVideoFrames??'?'} 프레임`},100)</script></html>
